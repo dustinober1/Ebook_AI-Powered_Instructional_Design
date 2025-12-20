@@ -54,21 +54,12 @@ plugins:
   - search:
       separator: '[\s\-\.]+'
       lang: en
-      prebuild_index: true
-      highlight: true
-      suggestions: true
-  - mkdocs-jupyter:
-      include_colab_link: true
   - with-pdf:
       author: Dustin Ober
       copyright: 2025 Dustin Ober
       cover: true
       back_cover: true
-      toc: true
-      index: true
       output_path: pdf/ai-instructional-design.pdf
-      exclude_pages:
-        - maintenance.md
 
 markdown_extensions:
   - admonition
@@ -93,11 +84,7 @@ nav:
     - 4. Case Studies: chapters/04-case-studies.md
     - 5. Advanced AI Implementation: chapters/05-advanced-ai.md
     - 6. The Future of AI-Powered ID: chapters/06-the-future.md
-  - Interactive Labs:
-    - Prompt Engineering Lab: notebooks/prompt_lab.ipynb
   - Bibliography: bibliography.md
-  - Maintenance Dashboard: maintenance.md
-  - Chapter Template: template_chapter.md
 
 extra_css:
   - stylesheets/extra.css

@@ -1,4 +1,0 @@
-# file: /Users/dustinober/ebooks/AI_ISD/scripts/content_audit.py
-# hypothesis_version: 6.148.7
-
-[180, 365, '%Y-%m-%d', ', ', '.ipynb', '.md', '__main__', 'authors', 'docs', 'docs/maintenance.md', 'frontmatter', 'last_reviewed', 'metadata', 'path', 'r', 'status', 'title', 'w', '⚠️ Unknown', '✅ Fresh', '❌ Invalid Date', '🕒 Needs Review', '🚨 Stale']
