@@ -8,6 +8,8 @@ reading_time: 10 min
 authors: ["Dustin Ober"]
 ---
 
+![AI Fundamentals for Instructional Designers](../assets/chapter-01-cover.jpg)
+
 # AI Fundamentals for Instructional Designers
 
 To design effective learning experiences with AI, we must first understand the "engine" that powers our tools. This chapter demystifies Large Language Models (LLMs) and explains the core concepts that every instructional designer should know.
