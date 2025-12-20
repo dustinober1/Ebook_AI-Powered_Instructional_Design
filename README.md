@@ -2,7 +2,7 @@
 
 > **An open-source ebook exploring the intersection of Artificial Intelligence and Instructional Design (ID).**
 
-This repository contains the source code and content for the *AI-Powered Instructional Design* ebook. It is built as a modern, interactive web book using **MkDocs**, **Material for MkDocs**, and **Jupyter Notebooks** for hands-on labs.
+This repository contains the source code and content for the *AI-Powered Instructional Design* ebook. It is built as a modern, accessible web book using **MkDocs** and **Material for MkDocs**.
 
 ## 📚 About the Book
 
@@ -14,18 +14,17 @@ As we move into the "Third Wave" of AI in education, the role of the Instruction
 
 ## 🚀 Features
 
-- **Interactive Labs**: Integrated Jupyter Notebooks allow readers to run Python code and prompt engineering experiments directly.
-- **Responsive Design**: Built with the premium *Material for MkDocs* theme.
+- **Premium Reading Experience**: Built with the *Material for MkDocs* theme, featuring custom Typography and Layouts.
+- **Dark & Light Mode**: Fully accessible themes for any reading environment.
+- **Responsive Design**: Optimizes automatically for mobile, tablet, and desktop.
+- **Search & Navigation**: Instant search across all chapters, glossary, and references.
 - **PDF Generation**: Automatically compiles the entire book into a PDF for offline reading.
-- **Verification**: Includes a test suite to ensure content freshness, link validity, and accessibility standards.
 
 ## 🛠️ Technology Stack
 
 - **Core**: [MkDocs](https://www.mkdocs.org/)
 - **Theme**: [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
-- **Interactivity**: [mkdocs-jupyter](https://github.com/danielfrg/mkdocs-jupyter)
 - **PDF**: [mkdocs-with-pdf](https://github.com/gpoulin/mkdocs-with-pdf)
-- **Testing**: [pytest](https://docs.pytest.org/)
 
 ## 🏁 Getting Started
 
@@ -37,8 +36,8 @@ As we move into the "Third Wave" of AI in education, the role of the Instruction
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/dustinober1/Ebook_AI-Powered_Instructional_Design.git
-   cd Ebook_AI-Powered_Instructional_Design
+   git clone https://github.com/dustinober/AI_ISD.git
+   cd AI_ISD
    ```
 
 2. **Create a virtual environment**
@@ -71,26 +70,18 @@ mkdocs build
 ```
 The output will be in the `site/` directory.
 
-## 🧪 Testing
-
-We use `pytest` to validate content structure, metadata, and functionality.
-
-```bash
-pytest
-```
-
 ## 📂 Project Structure
 
 ```
 ├── docs/
+│   ├── assets/            # Images and Covers
 │   ├── chapters/          # Main ebook content (Markdown)
-│   ├── notebooks/         # Interactive Jupyter Labs (.ipynb)
 │   ├── stylesheets/       # Custom CSS
 │   ├── index.md           # Landing page
+│   ├── glossary.md        # Glossary of Terms
 │   └── bibliography.md    # References
-├── scripts/               # Utility scripts
-├── tests/                 # Content validation tests
-├── mkdocs.yml            # Site configuration
+├── .github/               # CI/CD Workflows
+├── mkdocs.yml             # Site configuration
 └── requirements.txt       # Python dependencies
 ```
 
@@ -100,5 +91,5 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for de
 
 ## 📄 License
 
-This project is licensed under the **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.
+This project is licensed under the **MIT License**.
 See the [LICENSE](LICENSE) file for details.
