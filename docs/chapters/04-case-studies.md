@@ -21,7 +21,7 @@ In one of the most famous examples of AI in education, Georgia Tech implemented 
 
 - **The Challenge**: Online forums for computer science courses were overwhelmed with thousands of repetitive student queries.
 - **The Solution**: An AI agent trained on previous forum data was deployed to answer routine questions about assignments and deadlines.
-- **The Result**: Students were unable to distinguish Jill from human TAs. She answered questions with 97% accuracy, allowing human instructors to focus on deeper pedagogical discussions and at-risk student intervention.
+- **The Result**: Students were often unable to distinguish Jill from human TAs. She answered questions with **high accuracy**, allowing human instructors to focus on deeper pedagogical discussions and at-risk student intervention.
 
 ## 2. Corporate Training: Personalization at Scale
 
@@ -37,7 +37,7 @@ Walmart combined Virtual Reality (VR) with AI to train frontline associates (Wal
 
 - **The Challenge**: Training employees on complex, high-pressure tasks (like "Black Friday" management) is difficult in a classroom.
 - **The Solution**: Immersive VR simulations where AI actors respond dynamically to trainee decisions.
-- **The Result**: A 15% improvement in employee performance scores and a massive reduction in training time for procedural work.
+- **The Result**: A measurable improvement in employee performance scores and a massive reduction in training time for procedural work.
 
 ## 3. Specialized Learning: Accessibility and Engagement
 
@@ -53,7 +53,7 @@ Ivy Tech used AI to identify students at risk of failing before they even took t
 
 - **The Challenge**: Traditional "early warning" systems were too late to save many struggling students.
 - **The Solution**: An AI model that analyzed 16,000 data points (engagement, early quiz scores, login frequency) to predict at-risk status.
-- **The Result**: 16,000 at-risk students were identified; 98% of those contacted improved their performance to a 'C' or better.
+- **The Result**: 16,000 at-risk students were identified; a vast majority of those contacted improved their performance to a 'C' or better.
 
 ---
 

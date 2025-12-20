@@ -12,7 +12,7 @@ authors: ["Dustin Ober"]
 
 # The ID-AI Workflow: Augmenting ADDIE
 
-The ADDIE model (Analysis, Design, Development, Implementation, and Evaluation) has been the gold standard for instructional design for decades. As Devlin Peck (2025) notes, over 50% of instructional designers are now using AI daily or weekly to revolutionize the **speed and depth** of this workflow.
+The ADDIE model (Analysis, Design, Development, Implementation, and Evaluation) has been the gold standard for instructional design for decades. Recent industry surveys suggest a rapidly growing number of instructional designers are adopting AI to revolutionize the **speed and depth** of this workflow.
 
 ## 1. Analysis: Precision and Speed
 
@@ -31,7 +31,7 @@ The design phase is where the ID-AI "Co-Intelligence" loop really shines.
 
 ## 3. Development: Rapid Multimedia & Content
 
-This is the most visible area of impact. Reports from **Shift eLearning** indicate that companies using AI-powered tools can reduce course development time by up to **50%**, allowing designers to focus on high-level strategy rather than rote production (Shift eLearning, 2025).
+This is the most visible area of impact. Reports from ed-tech firms indicate that companies using AI-powered tools can significantly reduce course development time, allowing designers to focus on high-level strategy rather than rote production.
 
 - **Rapid Prototyping**: Tools like **Courseau** can convert a raw PDF into a structured course in minutes.
 - **Multimedia Production**: 
@@ -44,7 +44,7 @@ This is the most visible area of impact. Reports from **Shift eLearning** indica
 AI moves instructional design from a "fixed" experience to a "living" one.
 
 - **AI Tutors**: Deployment now includes Socratic tutors that guide learners without giving answers.
-- **Just-in-Time Support**: Chatbots embedded in the LMS provide 24/7 support.
+- **Just-in-Time Support**: Chatbots embedded in the **Learning Management System (LMS)** provide 24/7 support.
 
 ## 5. Evaluation: Predictive Insights
 

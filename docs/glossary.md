@@ -45,6 +45,9 @@ A design methodology where human judgment is integrated into the AI workflow to 
 ### Large Language Model (LLM)
 A type of AI model trained on massive amounts of text data. It uses statistical patterns to understand, summarize, generate, and predict new content. Examples include GPT-4, Claude 3.5, and Gemini.
 
+### Learning Management System (LMS)
+A software application for the administration, documentation, tracking, reporting, and delivery of educational courses. AI is increasingly being integrated into LMS platforms to provide personalized recommendations.
+
 ## P
 
 ### Prompt Engineering
@@ -56,6 +59,9 @@ The art and science of crafting inputs (prompts) to guide Generative AI models t
 A technique that connects an LLM to a specific, private knowledge base (like a company handbook). Before answering a question, the AI retrieves relevant facts from this trusted source, significantly reducing hallucinations.
 
 ## S
+
+### SCORM (Shareable Content Object Reference Model)
+A set of technical standards for e-learning software products. It tells programmers how to write their code so that it can "play well" with other e-learning software.
 
 ### Synthetic Learners
 AI-simulated personas that mimic the behaviors, questions, and misconceptions of real students. Designers use them to stress-test curriculum and practice handling difficult classroom scenarios.

@@ -14,13 +14,13 @@ All sources cited in this ebook follow the APA 7th Edition format.
 
 - Bolton College (2024). *Transforming Online Learning with AI Video*. https://www.synthesia.io/case-studies/bolton-college
 
-- Courseau (2025). *Accelerating Course Development with AI*. https://courseau.co
+- Courseau (n.d.). *Official Platform Documentation*. https://courseau.co
 
 - Databricks (2025). *Creating High Quality RAG Applications with Databricks*. https://www.databricks.com/blog/creating-high-quality-rag-applications-databricks
 
-- EDUCAUSE (2025). *2025 Horizon Report | Teaching and Learning Edition*. https://library.educause.edu/resources/2025/horizon-report
+- EDUCAUSE (2024). *2024 Horizon Report | Teaching and Learning Edition*. https://library.educause.edu/resources/2024/horizon-report
 
-- Edcafe AI (2025). *AI-Powered Toolkit for Educators*. https://edcafe.ai
+- Edcafe AI (n.d.). *AI-Powered Toolkit for Educators*. https://edcafe.ai
 
 - Gartner (2024). *Hype Cycle for Artificial Intelligence, 2025*. https://www.gartner.com/en/documents/5623869
 
