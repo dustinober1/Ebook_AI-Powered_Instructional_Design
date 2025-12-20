@@ -8,6 +8,8 @@ reading_time: 15 min
 authors: ["Dustin Ober"]
 ---
 
+![Prompt Engineering for Instructional Designers](../assets/chapter-02-cover.jpg)
+
 # Prompt Engineering for Instructional Designers
 
 In Chapter 1, we learned that LLMs are "reasoning engines." To get the best results from these engines, we must provide high-quality fuel: **prompts**. Prompt engineering is the process of structured communication that guides the AI toward accurate, relevant, and pedagogically sound outputs.
