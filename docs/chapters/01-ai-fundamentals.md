@@ -37,14 +37,29 @@ The **context window** is the amount of information the model can "hold in its h
 - **Generative AI**: Creates new content (text, images, video) based on patterns. This is where most ID work happens (e.g., creating case studies).
 - **Discriminative AI**: Classifies or analyzes existing data. In ID, this is used for grading, identifying gaps in a curriculum, or sentiment analysis of learner feedback.
 
-## 4. The "Hallucination" Problem
+## 4. The AI Toolbox: Beyond ChatGPT
+
+While ChatGPT (and other LLMs like Claude or Gemini) are the most famous tools, the AI landscape for instructional designers is vast. As recent reviews by *The eLearning Coach* and *Cathy Moore* highlight, the toolkit can be categorized by function:
+
+- **Writing & Content**: **Jasper**, **ChatGPT**, **Claude** (for brainstorming, drafting scenarios, and rewriting content).
+- **Multimedia Generation**:
+    - *Video*: **Synthesia** (AI avatars), **HeyGen**.
+    - *Audio*: **WellSaid Labs** (high-fidelity voiceovers), **Descript** (audio/video editing with text).
+    - *Presentation*: **Tome** (rapid slide generation).
+- **Research & Synthesis**: **Elicit**, **Consensus** (finding academic papers and summarizing research without hallucinations).
+- **Productivity**: **Otter.ai** (meeting transcription), **Notion AI**.
+
+> [!TIP]
+> Tools evolve rapidly. Focus on the *category* of the tool (e.g., "AI Voice Generator") rather than becoming dependent on a single brand.
+
+## 5. The "Hallucination" Problem
 
 One of the biggest challenges in AI-Powered ID is **hallucination**—when the model generates factually incorrect information that sounds highly convincing.
 
 > [!IMPORTANT]
 > Never use AI-generated content in a learning module without a Subject Matter Expert (SME) or your own rigorous verification. AI is a creative assistant, not an encyclopedia.
 
-## 5. Ethical Considerations
+## 6. Ethical Considerations
 
 As instructional designers, we have a responsibility to our learners:
 - **Bias**: AI models can inherit biases from their training data. We must audit outputs for gender, racial, and cultural bias.
@@ -60,5 +75,7 @@ As instructional designers, we have a responsibility to our learners:
 
 ---
 *References:*
-- Mollick, E. (2024). *Co-Intelligence: Living and Working with AI*. Portfolio.
 - EDUCAUSE (2024). *2025 Horizon Report: Teaching and Learning Edition*.
+- Malamed, C. (2025). *AI Tools for Instructional Designers*. The eLearning Coach.
+- Mollick, E. (2024). *Co-Intelligence: Living and Working with AI*. Portfolio.
+- Moore, C. (2025). *Best AI Tools for Instructional Designers*.
