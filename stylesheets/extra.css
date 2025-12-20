@@ -104,10 +104,37 @@ body {
 .md-header__title {
     font-weight: 600;
     letter-spacing: -0.02em;
+    color: #FFFFFF !important;
+    /* Pure white for maximum readability */
+}
+
+/* Make header topic text bright as well */
+.md-header__topic {
+    color: #FFFFFF !important;
 }
 
 .md-header__button.md-logo {
     filter: brightness(1.2);
+}
+
+/* Header icons and buttons */
+.md-header__button {
+    color: #E0E0E0 !important;
+    /* Bright icons */
+}
+
+.md-header__button:hover {
+    color: #FFFFFF !important;
+}
+
+/* Search input placeholder */
+.md-search__input {
+    color: #FFFFFF !important;
+}
+
+.md-search__input::placeholder {
+    color: #A0A0A0 !important;
+    /* Visible placeholder text */
 }
 
 /* Navigation tabs */
@@ -117,14 +144,16 @@ body {
 }
 
 .md-tabs__link {
-    color: var(--custom-text-secondary) !important;
+    color: #C0C8D0 !important;
+    /* Much brighter default color */
     font-weight: 500;
     transition: var(--custom-transition);
 }
 
 .md-tabs__link:hover,
 .md-tabs__link--active {
-    color: var(--custom-text-primary) !important;
+    color: #FFFFFF !important;
+    /* Pure white on hover/active */
 }
 
 /* --------------------------------------------------------------------------
