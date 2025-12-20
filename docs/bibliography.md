@@ -16,9 +16,7 @@ All sources cited in this ebook follow the APA 7th Edition format.
 
 - Courseau (2025). *Accelerating Course Development with AI*. https://courseau.co
 
-- Databricks (2023). *Creating High Quality RAG Applications with Databricks*. https://www.databricks.com/blog/creating-high-quality-rag-applications-databricks
-
-- EDUCAUSE (2024). *2025 Horizon Report: Teaching and Learning Edition*. https://library.educause.edu/resources/2024/2024-horizon-report-teaching-and-learning-edition
+- Databricks (2025). *Creating High Quality RAG Applications with Databricks*. https://www.databricks.com/blog/creating-high-quality-rag-applications-databricks
 
 - EDUCAUSE (2025). *2025 Horizon Report | Teaching and Learning Edition*. https://library.educause.edu/resources/2025/horizon-report
 

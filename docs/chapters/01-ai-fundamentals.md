@@ -28,7 +28,10 @@ For an ID, an LLM is more than a chatbot; it is a **reasoning engine**. It can s
 Understanding how AI "reads" and "remembers" is crucial for prompt engineering.
 
 ### Tokens
-AI doesn't read words like humans do. It breaks text into **tokens**—small chunks of characters. 1,000 tokens is roughly equal to 750 words. 
+AI doesn't read words like humans do. It breaks text into **tokens**—small chunks of characters. 
+- **Rule of Thumb**: 1,000 tokens ≈ 750 words. 
+- **Visual**: A standard page of single-spaced text is about 500 words, or ~660 tokens.
+
 *Why does this matter?* API costs and model limits are often based on token counts.
 
 ### Context Window
@@ -67,6 +70,7 @@ As instructional designers, we have a responsibility to our learners:
 
 - **Bias**: AI models can inherit biases from their training data. We must audit outputs for gender, racial, and cultural bias.
 - **Privacy**: Never input sensitive student data or proprietary company information into public AI models.
+- **Accessibility**: Ensure AI-generated content (images, video, text) meets WCAG 2.1 standards. AI can help generate alt-text, but a human must verify it for accuracy and context.
 - **Academic Integrity**: We must design assessments that focus on higher-order thinking (Bloom’s Taxonomy) which AI cannot easily replicate without human synthesis.
 
 ---
@@ -80,7 +84,7 @@ As instructional designers, we have a responsibility to our learners:
 ---
 *References:*
 
-- EDUCAUSE (2024). *2025 Horizon Report: Teaching and Learning Edition*.
+- EDUCAUSE (2025). *2025 Horizon Report: Teaching and Learning Edition*.
 - Malamed, C. (2025). *AI Tools for Instructional Designers*. The eLearning Coach.
 - Mollick, E. (2024). *Co-Intelligence: Living and Working with AI*. Portfolio.
 - Moore, C. (2025). *Best AI Tools for Instructional Designers*.

@@ -20,6 +20,9 @@ A common problem with LLMs is that they are trained on public data. They don't k
 
 **RAG** solves this by connecting the LLM to a specific "Knowledge Shell" of your proprietary documents.
 
+> [!NOTE]
+> **Analogy:** Think of a standard LLM as a student taking a test from memory. They might hallucinate if they don't know the answer. RAG is like letting that student take an **open-book exam** with *your* textbook. They must find the answer in the book before writing it down.
+
 ### How it Works (The Technical Loop)
 
 1.  **Retrieval**: When a user asks a question, the system first searches your provided documents (PDFs, transcripts, manuals) for relevant text chunks.
