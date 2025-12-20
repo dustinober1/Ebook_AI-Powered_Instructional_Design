@@ -1,15 +1,23 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-  {{ super() }}
-  <!-- Preconnect for Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Custom meta tags -->
-  <meta name="theme-color" content="#0D1117">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+{{ super() }}
+<!-- Preconnect for Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Custom meta tags -->
+<meta name="theme-color" content="#0D1117">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 {% endblock %}
 
 {% block announce %}
+<!-- Skip to content link for keyboard accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+{% endblock %}
+
+{% block content %}
+<main id="main-content" role="main">
+  {{ super() }}
+</main>
 {% endblock %}
