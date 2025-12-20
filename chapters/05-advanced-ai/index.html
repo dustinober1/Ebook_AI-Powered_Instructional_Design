@@ -964,6 +964,10 @@
 <h2 id="1-what-is-rag-retrieval-augmented-generation">1. What is RAG? (Retrieval-Augmented Generation)</h2>
 <p>A common problem with LLMs is that they are trained on public data. They don't know your company's specific safety protocols, your unique product features, or your internal project management methodology.</p>
 <p><strong>RAG</strong> solves this by connecting the LLM to a specific "Knowledge Shell" of your proprietary documents.</p>
+<blockquote>
+<p>[!NOTE]
+<strong>Analogy:</strong> Think of a standard LLM as a student taking a test from memory. They might hallucinate if they don't know the answer. RAG is like letting that student take an <strong>open-book exam</strong> with <em>your</em> textbook. They must find the answer in the book before writing it down.</p>
+</blockquote>
 <h3 id="how-it-works-the-technical-loop">How it Works (The Technical Loop)</h3>
 <ol>
 <li><strong>Retrieval</strong>: When a user asks a question, the system first searches your provided documents (PDFs, transcripts, manuals) for relevant text chunks.</li>

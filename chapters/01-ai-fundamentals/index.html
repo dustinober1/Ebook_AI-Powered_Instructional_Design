@@ -1015,8 +1015,10 @@ Think of an LLM as a highly sophisticated "auto-complete" built on the sum of hu
 <h2 id="2-tokens-and-context-windows">2. Tokens and Context Windows</h2>
 <p>Understanding how AI "reads" and "remembers" is crucial for prompt engineering.</p>
 <h3 id="tokens">Tokens</h3>
-<p>AI doesn't read words like humans do. It breaks text into <strong>tokens</strong>—small chunks of characters. 1,000 tokens is roughly equal to 750 words. 
-<em>Why does this matter?</em> API costs and model limits are often based on token counts.</p>
+<p>AI doesn't read words like humans do. It breaks text into <strong>tokens</strong>—small chunks of characters. 
+- <strong>Rule of Thumb</strong>: 1,000 tokens ≈ 750 words. 
+- <strong>Visual</strong>: A standard page of single-spaced text is about 500 words, or ~660 tokens.</p>
+<p><em>Why does this matter?</em> API costs and model limits are often based on token counts.</p>
 <h3 id="context-window">Context Window</h3>
 <p>The <strong>context window</strong> is the amount of information the model can "hold in its head" at once during a conversation. In 2025, context windows have expanded significantly (with some models handling millions of tokens), but the core principle remains: the more relevant context you provide in your prompt, the better the output.</p>
 <h2 id="3-generative-vs-discriminative-ai">3. Generative vs. Discriminative AI</h2>
@@ -1052,6 +1054,7 @@ Never use AI-generated content in a learning module without a Subject Matter Exp
 <ul>
 <li><strong>Bias</strong>: AI models can inherit biases from their training data. We must audit outputs for gender, racial, and cultural bias.</li>
 <li><strong>Privacy</strong>: Never input sensitive student data or proprietary company information into public AI models.</li>
+<li><strong>Accessibility</strong>: Ensure AI-generated content (images, video, text) meets WCAG 2.1 standards. AI can help generate alt-text, but a human must verify it for accuracy and context.</li>
 <li><strong>Academic Integrity</strong>: We must design assessments that focus on higher-order thinking (Bloom’s Taxonomy) which AI cannot easily replicate without human synthesis.</li>
 </ul>
 <hr />
@@ -1064,7 +1067,7 @@ Never use AI-generated content in a learning module without a Subject Matter Exp
 <hr />
 <p><em>References:</em></p>
 <ul>
-<li>EDUCAUSE (2024). <em>2025 Horizon Report: Teaching and Learning Edition</em>.</li>
+<li>EDUCAUSE (2025). <em>2025 Horizon Report: Teaching and Learning Edition</em>.</li>
 <li>Malamed, C. (2025). <em>AI Tools for Instructional Designers</em>. The eLearning Coach.</li>
 <li>Mollick, E. (2024). <em>Co-Intelligence: Living and Working with AI</em>. Portfolio.</li>
 <li>Moore, C. (2025). <em>Best AI Tools for Instructional Designers</em>.</li>
