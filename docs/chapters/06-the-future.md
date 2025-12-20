@@ -31,6 +31,7 @@ One of the most exciting emerging trends is the use of **Synthetic Learners** (A
 ## 3. Multimodal Learning Landscapes
 
 We are moving past the "Text + Image" paradigm. The future of ID is **Multimodal**.
+
 - AI will generate 3D immersive environments (VR/AR) from simple text prompts, allowing IDs to create complex laboratory or social-learning simulations without a dedicated team of 3D developers (Gartner, 2024).
 - Voice-first learning will allow "screenless" education, where AI mentors guide workers through hands-on tasks in real-time.
 

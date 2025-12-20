@@ -29,14 +29,18 @@ A vague prompt ("Write a lesson plan about history") leads to a generic output. 
 Standardizing your prompts makes your workflow repeatable and scaleable. Two effective frameworks for IDs are:
 
 ### The RACE Model
+
 A widely used framework that helps categorize the essential components of a prompt:
+
 - **R**ole: Who the AI is.
 - **A**ction: What it needs to do.
 - **C**ontext: The background info.
 - **E**xpectations: The final quality and format.
 
 ### The DETAIL Method
+
 Focuses on the granular needs of a learning module:
+
 - **D**omain: The subject area.
 - **E**xamples: Providing specific samples (Few-Shot prompting).
 - **T**arget audience.
@@ -61,6 +65,7 @@ Ask the AI to critique its own work.
 ## 4. The ID-AI Feedback Loop
 
 Prompt engineering is rarely a "one-and-done" task. It is an iterative loop:
+
 1.  **Draft**: Create your initial prompt.
 2.  **Diagnose**: Review the output for misalignment or generic content.
 3.  **Refine**: Add constraints, change the persona, or provide more context.

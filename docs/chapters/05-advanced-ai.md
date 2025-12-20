@@ -21,6 +21,7 @@ A common problem with LLMs is that they are trained on public data. They don't k
 **RAG** solves this by connecting the LLM to a specific "Knowledge Shell" of your proprietary documents.
 
 ### How it Works (The Technical Loop)
+
 1.  **Retrieval**: When a user asks a question, the system first searches your provided documents (PDFs, transcripts, manuals) for relevant text chunks.
 2.  **Augmentation**: The system "attaches" those relevant chunks to the user's question.
 3.  **Generation**: The LLM reads the user's question *plus* the attached chunks and generates an answer grounded solely in that data.
@@ -33,6 +34,7 @@ A common problem with LLMs is that they are trained on public data. They don't k
 In a standard workflow, you give a prompt and get a response. In an **Agentic Workflow**, you give a goal, and the AI works in a loop to figure out how to achieve it (Ng, 2024).
 
 Andrew Ng (2024) identifies four key patterns for agentic design:
+
 1.  **Reflection**: The agent looks at its own work and critiques it before showing it to you.
 2.  **Tool Use**: The agent can decide to use a calculator, search the web, or run code to solve a problem.
 3.  **Planning**: The agent breaks a complex goal (e.g., "Build a full 4-week course") into a sequence of smaller tasks.
@@ -41,6 +43,7 @@ Andrew Ng (2024) identifies four key patterns for agentic design:
 ## 3. Localized Knowledge Shells for ID
 
 Imagine building a training program for a new medical device. Instead of writing the content yourself, you create an "ID Agent" and provide it with the 500-page technical manual.
+
 - You ask the agent to: "Identify the 5 most common user errors mentioned in the manual and draft a scenario-based quiz for each."
 - Because the agent is grounded in a **RAG** system, it won't guess; it will only pull from the manual.
 
@@ -54,6 +57,8 @@ If a learner asks "How do I fix the blinking red light?", semantic search knows 
 ## 5. Security and Intellectual Property (IP)
 
 When implementing advanced AI, security is paramount. Instructional designers must advocate for **Private LLM Environments**.
+
+
 - These are secure "bubbles" within your company’s cloud where you can safely upload proprietary training data without it being used to train the public models (Databricks, 2025).
 
 ---

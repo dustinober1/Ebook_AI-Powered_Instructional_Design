@@ -64,6 +64,7 @@ One of the biggest challenges in AI-Powered ID is **hallucination**—when the m
 ## 6. Ethical Considerations
 
 As instructional designers, we have a responsibility to our learners:
+
 - **Bias**: AI models can inherit biases from their training data. We must audit outputs for gender, racial, and cultural bias.
 - **Privacy**: Never input sensitive student data or proprietary company information into public AI models.
 - **Academic Integrity**: We must design assessments that focus on higher-order thinking (Bloom’s Taxonomy) which AI cannot easily replicate without human synthesis.
@@ -71,6 +72,7 @@ As instructional designers, we have a responsibility to our learners:
 ---
 
 ### Reflection Exercise
+
 1.  Choose a topic you are currently teaching.
 2.  Write a prompt for an LLM to generate three different ways to introduce that topic.
 3.  Evaluate the output: Which one is the most engaging? Did the model hallucinate any facts?

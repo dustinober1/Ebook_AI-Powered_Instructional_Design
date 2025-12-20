@@ -23,6 +23,7 @@ We are moving away from simple automation (using AI to do a task for us) toward 
 ## The AI-Powered ID Persona
 
 An AI-Powered Instructional Designer is someone who:
+
 1.  **Orchestrates Workflows**: Uses AI to handle cognitive load—curating research, generating drafts, and analyzing data—so they can focus on high-level strategy and learner empathy.
 2.  **Architects Engagement**: Leverages AI to create hyper-personalized learning paths that adapt to individual learner needs in real-time.
 3.  **Ensures Ethics**: Acts as the "Human-in-the-Loop," critically evaluating AI outputs for bias, accuracy, and pedagogical soundness.
@@ -30,6 +31,7 @@ An AI-Powered Instructional Designer is someone who:
 ## What to Expect in This Book
 
 This is not just a book about theory. It is a technical foundation and a practical guide. You will find:
+
 - **Foundational Concepts**: Deep dives into LLMs and learning science.
 - **Agentic Workflows**: How to build programmable AI agents that help you with specific ID tasks.
 - **Interactive Code**: Jupyter Notebooks that you can run to test prompt engineering and content generation.
