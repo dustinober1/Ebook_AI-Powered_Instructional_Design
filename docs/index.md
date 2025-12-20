@@ -6,7 +6,7 @@ last_reviewed: 2025-12-20
 authors: ["Dustin Ober"]
 ---
 
-![AI-Powered Instructional Design Cover](assets/logo.jpg){ .cover-image }
+![AI-Powered Instructional Design Cover](assets/logo.jpg)
 
 # AI-Powered Instructional Design
 
@@ -30,4 +30,4 @@ This book explores how artificial intelligence can be integrated into the instru
 
 ## License
 
-This work is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+This work is licensed under the [MIT License](https://opensource.org/licenses/MIT) - free to use, modify, and distribute for any purpose.
