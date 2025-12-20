@@ -30,6 +30,8 @@ All sources cited in this ebook follow the APA 7th Edition format.
 
 - IBM (2024). *Personalizing Corporate Learning at Scale with Watson*. https://www.ibm.com/case-studies
 
+- Miao, X. & Mishra, P. K. (2025). *Preparing Future-Ready Learners: K12 Skills Shift and GenAI EdTech Innovation Direction*. arXiv. https://arxiv.org/abs/2512.16428
+
 - Mollick, E. R. & Mollick, L. (2024). *Instructors as Innovators: A Future-forward Approach to AI in Education*. SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4805757
 
 - Mollick, E. (2024). *Co-Intelligence: Living and Working with AI*. Portfolio.
