@@ -37,7 +37,12 @@ theme:
         name: Switch to light mode
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\-\.]+'
+      lang: en
+      prebuild_index: true
+      highlight: true
+      suggestions: true
   - mkdocs-jupyter:
       include_colab_link: true
   - with-pdf:
