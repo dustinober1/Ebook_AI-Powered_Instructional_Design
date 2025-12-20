@@ -689,8 +689,9 @@ body {
 
 /* --------------------------------------------------------------------------
    Cover Image Styling
+   Target the first image on the home page (logo)
    -------------------------------------------------------------------------- */
-.md-typeset .cover-image {
+.md-typeset p:first-of-type img:first-child {
     display: block;
     max-width: 100%;
     width: 100%;
@@ -703,7 +704,7 @@ body {
 }
 
 @media screen and (max-width: 60em) {
-    .md-typeset .cover-image {
+    .md-typeset p:first-of-type img:first-child {
         max-height: 250px;
         border-radius: 12px;
     }
