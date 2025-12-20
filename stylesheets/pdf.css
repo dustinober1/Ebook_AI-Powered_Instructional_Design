@@ -1,0 +1,52 @@
+/* PDF/Print Stylesheet */
+
+@media print {
+
+    /* Hide navigation and UI elements */
+    .md-header,
+    .md-footer,
+    .md-sidebar,
+    .md-nav,
+    .md-search,
+    .md-top {
+        display: none !important;
+    }
+
+    /* Page breaks for chapters */
+    h1 {
+        page-break-before: always;
+    }
+
+    /* Keep headings with their content */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        page-break-after: avoid;
+    }
+
+    /* Optimize typography for print */
+    body {
+        font-family: serif;
+        font-size: 12pt;
+        line-height: 1.5;
+        color: black;
+        background: white;
+    }
+
+    /* Admonitions in print */
+    .admonition {
+        page-break-inside: avoid;
+        border-left: 4pt solid #ccc;
+        margin-bottom: 1em;
+        padding: 0.5em;
+    }
+
+    /* Fix image sizing for PDF */
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}

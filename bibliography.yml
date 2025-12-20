@@ -1,0 +1,117 @@
+- id: "bentley2023"
+  authors: ["Bentley, K.", "Miller, D."]
+  title: "The Future of Instructional Design in the Age of AI"
+  year: 2023
+  publication: "Journal of Educational Technology"
+  url: "https://example.com/bentley2023"
+
+- id: "mollick2024"
+  authors: ["Mollick, E. R.", "Mollick, L."]
+  title: "Instructors as Innovators: A Future-forward Approach to AI in Education"
+  year: 2024
+  publication: "Wharton Interactive"
+  url: "https://example.com/mollick2024"
+
+- id: educause_horizon_2025
+  title: "2025 Horizon Report: Teaching and Learning Edition"
+  authors: ["EDUCAUSE"]
+  year: 2024
+  publisher: "EDUCAUSE"
+  url: "https://library.educause.edu/resources/2024/2024-horizon-report-teaching-and-learning-edition"
+
+- id: gartner_hype_2025
+  title: "Hype Cycle for Artificial Intelligence, 2025"
+  authors: ["Gartner"]
+  year: 2024
+  publisher: "Gartner"
+  url: "https://www.gartner.com/en/documents/5623869"
+
+- id: mollick_2024_book
+  title: "Co-Intelligence: Living and Working with AI"
+  authors: ["Mollick, E."]
+  year: 2024
+  publisher: "Portfolio"
+
+- id: artisan_framework_2025
+  title: "The ARTISAN Instruction Framework: A Systematic Methodology for Effective LLM Prompting"
+  authors: ["Digital Strategy Ireland"]
+  year: 2025
+  publisher: "Digital Strategy Ireland"
+  url: "https://digitalstrategy.ie/artisan-framework"
+
+- id: race_model_id
+  title: "The RACE Model for AI Prompting in Instructional Design"
+  authors: ["Infopro Learning"]
+  year: 2024
+  publisher: "Infopro Learning"
+  url: "https://www.infoprolearning.com/blog/race-model-ai-prompting/"
+
+- id: edcafe_ai_2025
+  title: "AI-Powered Toolkit for Educators"
+  authors: ["Edcafe AI"]
+  year: 2025
+  publisher: "Edcafe AI"
+  url: "https://edcafe.ai"
+
+- id: courseau_rapid_id
+  title: "Accelerating Course Development with AI"
+  authors: ["Courseau"]
+  year: 2025
+  publisher: "Courseau"
+  url: "https://courseau.co"
+
+- id: georgia_tech_jill_watson
+  title: "Jill Watson: The AI Teaching Assistant"
+  authors: ["Georgia Institute of Technology"]
+  year: 2024
+  publisher: "Georgia Tech"
+  url: "https://pe.gatech.edu/blog/jill-watson-ai-teaching-assistant"
+
+- id: bolton_college_synthesia
+  title: "Transforming Online Learning with AI Video"
+  authors: ["Bolton College"]
+  year: 2024
+  publisher: "Synthesia Case Studies"
+  url: "https://www.synthesia.io/case-studies/bolton-college"
+
+- id: ibm_watson_training
+  title: "Personalizing Corporate Learning at Scale with Watson"
+  authors: ["IBM"]
+  year: 2024
+  publisher: "IBM Training"
+  url: "https://www.ibm.com/case-studies"
+
+- id: databricks_rag_2025
+  title: "Building High-Fidelity RAG Systems for Enterprise Knowledge"
+  authors: ["Databricks"]
+  year: 2025
+  publisher: "Databricks Engineering"
+  url: "https://www.databricks.com/blog/rag-best-practices"
+
+- id: andrew_ng_agents_2024
+  title: "Agentic Workflows: The Next Frontier of Generative AI"
+  authors: ["Ng, A."]
+  year: 2024
+  publisher: "DeepLearning.AI"
+  url: "https://www.deeplearning.ai/the-batch/agentic-workflows/"
+
+- id: articulate_future_id_2025
+  title: "The Evolving Role of the Instructional Designer in the Age of AI"
+  authors: ["Articulate"]
+  year: 2025
+  publisher: "Articulate Blog"
+  url: "https://articulate.com/blog/future-of-instructional-design"
+
+- id: educause_horizon_2025
+  title: "2025 Horizon Report | Teaching and Learning Edition"
+  authors: ["EDUCAUSE"]
+  year: 2025
+  publisher: "EDUCAUSE"
+  url: "https://library.educause.edu/resources/2025/horizon-report"
+
+- id: "ober2025"
+  authors: ["Ober, D."]
+  title: "AI-Powered Instructional Design: A Practical Guide"
+  year: 2025
+  publication: "Open Source Press"
+  url: "https://github.com/dustinober/AI_ISD"
