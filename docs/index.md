@@ -6,6 +6,8 @@ last_reviewed: 2025-12-20
 authors: ["Dustin Ober"]
 ---
 
+![AI-Powered Instructional Design Cover](assets/logo.jpg){ .cover-image }
+
 # AI-Powered Instructional Design
 
 Welcome to the open-source ebook on **AI-Powered Instructional Design**. 
