@@ -32,14 +32,21 @@ We are moving past the "Text + Image" paradigm. The future of ID is **Multimodal
 - AI will generate 3D immersive environments (VR/AR) from simple text prompts, allowing IDs to create complex laboratory or social-learning simulations without a dedicated team of 3D developers (Gartner, 2024).
 - Voice-first learning will allow "screenless" education, where AI mentors guide workers through hands-on tasks in real-time.
 
-## 4. The Evolving Role: From Designer to Architect
+## 4. The Shift in K-12 and Labor Market Skills
+
+Innovation isn't just about tools; it's about preparing learners for a rapidly changing labor market. As highlighted by Miao & Mishra (2025), the focus of EdTech innovation is shifting from simple content delivery to fostering **"Future-Ready Skills."**
+
+- **Cognitive Flexibility**: AI can answer static questions. The new curriculum prioritizes the ability to switch between concepts and adapt to new AI tools.
+- **Strategic GenAI Innovation**: Rather than just "using AI in class," institutions must adopt a long-term strategy where GenAI is integrated into the assessment of learning itself, moving away from rote memorization toward measuring critical thinking and problem-solving in real-world scenarios.
+
+## 5. The Evolving Role: From Designer to Architect
 
 The most significant change will not be in the technology, but in the **human role**. The instructional designer of 2030 will be a "Learning Architect" or "Experience Orchestrator."
 
 - **The Architect**: Focuses on the high-level strategy, ethics, and "human-in-the-loop" verification.
 - **The Orchestrator**: Manages a fleet of AI agents (Content Agents, Assessment Agents, Feedback Agents) to build learning experiences at a scale and speed previously unimaginable (Articulate, 2025).
 
-## 5. Conclusion: Staying AI-Fluent
+## 6. Conclusion: Staying AI-Fluent
 
 The future of instructional design is bright, but it requires a fundamental shift in mindset. We must move away from guarding our "creative output" and toward mastering our "orchestration input." 
 
@@ -55,3 +62,4 @@ What is one skill you use today that you think an AI will do better in 2030? Wha
 - Articulate (2025). *The Evolving Role of the Instructional Designer in the Age of AI*.
 - EDUCAUSE (2025). *2025 Horizon Report | Teaching and Learning Edition*.
 - Gartner (2024). *Hype Cycle for Artificial Intelligence, 2025*.
+- Miao, X. & Mishra, P. K. (2025). *Preparing Future-Ready Learners: K12 Skills Shift and GenAI EdTech Innovation Direction*.
