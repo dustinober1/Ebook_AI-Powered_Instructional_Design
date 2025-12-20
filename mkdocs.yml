@@ -84,6 +84,7 @@ nav:
     - 5. Advanced AI Implementation: chapters/05-advanced-ai.md
     - 6. The Future of AI-Powered ID: chapters/06-the-future.md
   - Bibliography: bibliography.md
+  - Glossary: glossary.md
 
 extra_css:
   - stylesheets/extra.css

@@ -4,7 +4,7 @@ description: "Going beyond the prompt: Leveraging RAG and AI Agents to build loc
 tags: ["RAG", "AI-Agents", "architecture", "advanced"]
 difficulty: "Advanced"
 last_reviewed: 2025-12-20
-reading_time: 15 min
+reading_time: 5 min
 authors: ["Dustin Ober"]
 ---
 

@@ -4,7 +4,7 @@ description: "Mastering the art and science of communicating with LLMs: Framewor
 tags: ["prompt-engineering", "frameworks", "workflow"]
 difficulty: "Intermediate"
 last_reviewed: 2025-12-20
-reading_time: 15 min
+reading_time: 3 min
 authors: ["Dustin Ober"]
 ---
 

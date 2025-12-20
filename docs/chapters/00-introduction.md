@@ -4,7 +4,7 @@ description: "The dawn of AI-powered instructional design: Why we are entering a
 tags: ["introduction", "vision", "strategy"]
 difficulty: "Beginner"
 last_reviewed: 2025-12-20
-reading_time: 5 min
+reading_time: 2 min
 authors: ["Dustin Ober"]
 ---
 

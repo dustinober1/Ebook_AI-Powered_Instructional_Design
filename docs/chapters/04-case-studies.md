@@ -4,7 +4,7 @@ description: "Real-world success stories: How AI-augmented instructional design 
 tags: ["case-studies", "implementation", "success-stories"]
 difficulty: "Beginner"
 last_reviewed: 2025-12-20
-reading_time: 12 min
+reading_time: 4 min
 authors: ["Dustin Ober"]
 ---
 

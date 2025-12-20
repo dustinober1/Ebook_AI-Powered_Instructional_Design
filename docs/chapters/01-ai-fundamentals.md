@@ -4,7 +4,7 @@ description: "Understanding the engine behind the AI-Powered ID: LLMs, tokens, a
 tags: ["foundations", "LLMs", "technical"]
 difficulty: "Intermediate"
 last_reviewed: 2025-12-20
-reading_time: 10 min
+reading_time: 4 min
 authors: ["Dustin Ober"]
 ---
 
@@ -57,14 +57,29 @@ While ChatGPT (and other LLMs like Claude or Gemini) are the most famous tools, 
 > [!TIP]
 > Tools evolve rapidly. Focus on the *category* of the tool (e.g., "AI Voice Generator") rather than becoming dependent on a single brand.
 
-## 5. The "Hallucination" Problem
+## 5. Evaluating AI Tools: A Framework for IDs
+
+With hundreds of new AI tools launching every week, how do you choose the right one? Use this simple checklist before adopting a new tool in your workflow:
+
+| Criteria                     | Key Question                                                                                                                                         |
+| :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Privacy & Security**       | Does this tool use my data to train its public models? (If yes, do NOT use for proprietary content).                                                 |
+| **Accuracy (Hallucination)** | How does the tool cite its sources? Can I verify the output easily?                                                                                  |
+| **Cost vs. ROI**             | Does the time saved by this tool justify the subscription cost? (e.g., A $30/mo video generator is worth it if it saves 10 hours of animation work). |
+| **Exportability**            | Can I easily export the content to my LMS or authoring tool (e.g., SCORM, HTML5, MP4)?                                                               |
+| **Accessibility**            | Does the output meet WCAG standards (e.g., auto-captions for video)?                                                                                 |
+
+> [!TIP]
+> **Start Small:** Don't try to overhaul your entire process at once. Pick *one* tool to solve *one* specific bottleneck (e.g., "I need faster audio narration") and evaluate its ROI for that specific task.
+
+## 6. The "Hallucination" Problem
 
 One of the biggest challenges in AI-Powered ID is **hallucination**—when the model generates factually incorrect information that sounds highly convincing.
 
 > [!IMPORTANT]
 > Never use AI-generated content in a learning module without a Subject Matter Expert (SME) or your own rigorous verification. AI is a creative assistant, not an encyclopedia.
 
-## 6. Ethical Considerations
+## 7. Ethical Considerations
 
 As instructional designers, we have a responsibility to our learners:
 

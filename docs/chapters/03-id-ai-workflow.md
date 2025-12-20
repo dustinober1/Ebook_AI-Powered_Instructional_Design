@@ -4,7 +4,7 @@ description: "Reimagining the ADDIE model with AI: How to augment every stage of
 tags: ["ADDIE", "workflow", "automation", "strategy"]
 difficulty: "Intermediate"
 last_reviewed: 2025-12-20
-reading_time: 12 min
+reading_time: 4 min
 authors: ["Dustin Ober"]
 ---
 
