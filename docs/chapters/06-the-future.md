@@ -8,6 +8,8 @@ reading_time: 15 min
 authors: ["Dustin Ober"]
 ---
 
+![The Future of AI-Powered Instructional Design](../assets/chapter-06-cover.jpg)
+
 # The Future of AI-Powered Instructional Design
 
 We are at the precipice of the "Third Wave" of AI in education. If the first wave was basic automation and the second wave was generative assistance, the third wave (2025–2030) will be defined by **autonomous orchestration** and **hyper-personalization**.
