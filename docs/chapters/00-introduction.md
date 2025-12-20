@@ -8,6 +8,8 @@ reading_time: 5 min
 authors: ["Dustin Ober"]
 ---
 
+![The Dawn of AI-Powered Instructional Design](../assets/chapter-00-cover.jpg)
+
 # The Dawn of AI-Powered Instructional Design
 
 The instructional design (ID) landscape is undergoing its most significant transformation since the advent of the World Wide Web. As we move into 2025, Artificial Intelligence is no longer just a "futuristic concept"—it is a critical partner in the design, development, and delivery of learning experiences.
