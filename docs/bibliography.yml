@@ -81,6 +81,20 @@
   publisher: "IBM Training"
   url: "https://www.ibm.com/case-studies"
 
+- id: databricks_rag_2025
+  title: "Building High-Fidelity RAG Systems for Enterprise Knowledge"
+  authors: ["Databricks"]
+  year: 2025
+  publisher: "Databricks Engineering"
+  url: "https://www.databricks.com/blog/rag-best-practices"
+
+- id: andrew_ng_agents_2024
+  title: "Agentic Workflows: The Next Frontier of Generative AI"
+  authors: ["Ng, A."]
+  year: 2024
+  publisher: "DeepLearning.AI"
+  url: "https://www.deeplearning.ai/the-batch/agentic-workflows/"
+
 - id: "ober2025"
   authors: ["Ober, D."]
   title: "AI-Powered Instructional Design: A Practical Guide"

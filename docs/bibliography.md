@@ -8,6 +8,8 @@ All sources cited in this ebook follow the APA 7th Edition format.
 
 - Courseau (2025). *Accelerating Course Development with AI*. https://courseau.co
 
+- Databricks (2025). *Building High-Fidelity RAG Systems for Enterprise Knowledge*. https://www.databricks.com/blog/rag-best-practices
+
 - Digital Strategy Ireland (2025). *The ARTISAN Instruction Framework: A Systematic Methodology for Effective LLM Prompting*. https://digitalstrategy.ie/artisan-framework
 
 - EDUCAUSE (2024). *2025 Horizon Report: Teaching and Learning Edition*. https://library.educause.edu/resources/2024/2024-horizon-report-teaching-and-learning-edition
@@ -25,6 +27,8 @@ All sources cited in this ebook follow the APA 7th Edition format.
 - Mollick, E. R. & Mollick, L. (2024). *Instructors as Innovators: A Future-forward Approach to AI in Education*. Wharton Interactive. https://example.com/mollick2024
 
 - Mollick, E. (2024). *Co-Intelligence: Living and Working with AI*.
+
+- Ng, A. (2024). *Agentic Workflows: The Next Frontier of Generative AI*. https://www.deeplearning.ai/the-batch/agentic-workflows/
 
 - Ober, D. (2025). *AI-Powered Instructional Design: A Practical Guide*. Open Source Press. https://github.com/dustinober/AI_ISD
 
