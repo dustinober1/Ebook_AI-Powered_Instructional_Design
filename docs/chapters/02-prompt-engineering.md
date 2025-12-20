@@ -27,7 +27,7 @@ A vague prompt ("Write a lesson plan about history") leads to a generic output. 
 Standardizing your prompts makes your workflow repeatable and scaleable. Two effective frameworks for IDs are:
 
 ### The RACE Model
-Developed by Infopro Learning (2024), RACE helps categorize the essential components of a prompt:
+A widely used framework that helps categorize the essential components of a prompt:
 - **R**ole: Who the AI is.
 - **A**ction: What it needs to do.
 - **C**ontext: The background info.
@@ -56,14 +56,7 @@ Add the instruction **"Think step-by-step"** or "Outline your reasoning before p
 Ask the AI to critique its own work. 
 *Example Prompt*: "Review the microlearning draft you just provided. Identify any areas where the learning objectives are not met, and then rewrite the draft to address those gaps."
 
-## 4. The ARTISAN Instruction Framework (2025)
-A systematic approach that views the LLM as an "intelligent, but literal, colleague" (Digital Strategy Ireland, 2025). It emphasizes:
-- **A**udience Articulation.
-- **T**ask Instruction.
-- **S**trategic Refinement.
-- **A**utomated Evaluation.
-
-## 5. The ID-AI Feedback Loop
+## 4. The ID-AI Feedback Loop
 
 Prompt engineering is rarely a "one-and-done" task. It is an iterative loop:
 1.  **Draft**: Create your initial prompt.
@@ -75,9 +68,3 @@ Prompt engineering is rarely a "one-and-done" task. It is an iterative loop:
 
 ### Hands-On Exercise
 Using the **RACE Model**, draft a prompt to generate a 5-question multiple-choice quiz based on a specific paragraph from Chapter 1. Then, refine the prompt by adding a constraint to "provide feedback for both correct and incorrect answers."
-
----
-*References:*
-- Digital Strategy Ireland (2025). *The ARTISAN Instruction Framework: A Systematic Methodology for Effective LLM Prompting*.
-- Infopro Learning (2024). *The RACE Model for AI Prompting in Instructional Design*.
-- Mollick, E. (2024). *Co-Intelligence: Living and Working with AI*. Portfolio.

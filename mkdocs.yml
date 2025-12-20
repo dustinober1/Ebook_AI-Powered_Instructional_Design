@@ -80,6 +80,8 @@ nav:
     - 4. Case Studies: chapters/04-case-studies.md
     - 5. Advanced AI Implementation: chapters/05-advanced-ai.md
     - 6. The Future of AI-Powered ID: chapters/06-the-future.md
+  - Interactive Labs:
+    - Prompt Engineering Lab: notebooks/prompt_lab.ipynb
   - Bibliography: bibliography.md
   - Maintenance Dashboard: maintenance.md
   - Chapter Template: template_chapter.md
