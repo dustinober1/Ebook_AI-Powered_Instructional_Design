@@ -60,6 +60,27 @@
   publisher: "Courseau"
   url: "https://courseau.co"
 
+- id: georgia_tech_jill_watson
+  title: "Jill Watson: The AI Teaching Assistant"
+  authors: ["Georgia Institute of Technology"]
+  year: 2024
+  publisher: "Georgia Tech"
+  url: "https://pe.gatech.edu/blog/jill-watson-ai-teaching-assistant"
+
+- id: bolton_college_synthesia
+  title: "Transforming Online Learning with AI Video"
+  authors: ["Bolton College"]
+  year: 2024
+  publisher: "Synthesia Case Studies"
+  url: "https://www.synthesia.io/case-studies/bolton-college"
+
+- id: ibm_watson_training
+  title: "Personalizing Corporate Learning at Scale with Watson"
+  authors: ["IBM"]
+  year: 2024
+  publisher: "IBM Training"
+  url: "https://www.ibm.com/case-studies"
+
 - id: "ober2025"
   authors: ["Ober, D."]
   title: "AI-Powered Instructional Design: A Practical Guide"

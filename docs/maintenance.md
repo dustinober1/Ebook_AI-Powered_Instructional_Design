@@ -9,6 +9,7 @@ This page tracks the review status of all ebook content based on the `last_revie
 | Chapter 1: AI Fundamentals | 2025-12-20 | ✅ Fresh | Dustin Ober |
 | Chapter 2: Prompt Engineering for IDs | 2025-12-20 | ✅ Fresh | Dustin Ober |
 | Chapter 3: The ID-AI Workflow | 2025-12-20 | ✅ Fresh | Dustin Ober |
+| Chapter 4: Case Studies | 2025-12-20 | ✅ Fresh | Dustin Ober |
 | index.md |  | ⚠️ Unknown |  |
 | maintenance.md |  | ⚠️ Unknown |  |
 | Chapter Title | 2025-12-20 | ✅ Fresh | Dustin Ober |
