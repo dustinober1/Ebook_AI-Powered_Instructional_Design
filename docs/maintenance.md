@@ -14,4 +14,3 @@ This page tracks the review status of all ebook content based on the `last_revie
 | Chapter 6: The Future of AI-Powered ID | 2025-12-20 | ✅ Fresh | Dustin Ober |
 | index.md |  | ⚠️ Unknown |  |
 | maintenance.md |  | ⚠️ Unknown |  |
-| Chapter Title | 2025-12-20 | ✅ Fresh | Dustin Ober |
