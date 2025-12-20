@@ -46,6 +46,20 @@
   publisher: "Infopro Learning"
   url: "https://www.infoprolearning.com/blog/race-model-ai-prompting/"
 
+- id: edcafe_ai_2025
+  title: "AI-Powered Toolkit for Educators"
+  authors: ["Edcafe AI"]
+  year: 2025
+  publisher: "Edcafe AI"
+  url: "https://edcafe.ai"
+
+- id: courseau_rapid_id
+  title: "Accelerating Course Development with AI"
+  authors: ["Courseau"]
+  year: 2025
+  publisher: "Courseau"
+  url: "https://courseau.co"
+
 - id: "ober2025"
   authors: ["Ober, D."]
   title: "AI-Powered Instructional Design: A Practical Guide"

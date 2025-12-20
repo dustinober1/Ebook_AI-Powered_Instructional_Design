@@ -76,6 +76,7 @@ nav:
     - 0. Introduction: chapters/00-introduction.md
     - 1. AI Fundamentals: chapters/01-ai-fundamentals.md
     - 2. Prompt Engineering: chapters/02-prompt-engineering.md
+    - 3. The ID-AI Workflow (ADDIE): chapters/03-id-ai-workflow.md
   - Bibliography: bibliography.md
   - Maintenance Dashboard: maintenance.md
   - Chapter Template: template_chapter.md
