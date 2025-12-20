@@ -72,6 +72,7 @@ In 2024, a global leadership firm used a strategic AI workflow to develop a new 
 
 ---
 *References:*
+
 - Courseau (2025). *Accelerating Course Development with AI*.
 - Devlin Peck (2025). *AI in Instructional Design*.
 - Disco (2025). *AI for Instructional Design: Using the ADDIE Model*.

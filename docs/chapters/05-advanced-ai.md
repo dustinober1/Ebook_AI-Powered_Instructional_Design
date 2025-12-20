@@ -68,6 +68,7 @@ Assume you have a 100-page employee handbook. How would a **RAG-powered** AI tut
 
 ---
 *References:*
+
 - Databricks (2025). *Building High-Fidelity RAG Systems for Enterprise Knowledge*.
 - Ng, A. (2024). *Agentic Workflows: The Next Frontier of Generative AI*. DeepLearning.AI.
 - Gartner (2024). *Hype Cycle for Artificial Intelligence, 2025*.

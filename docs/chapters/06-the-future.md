@@ -62,6 +62,7 @@ What is one skill you use today that you think an AI will do better in 2030? Wha
 
 ---
 *References:*
+
 - Articulate (2025). *The Evolving Role of the Instructional Designer in the Age of AI*.
 - EDUCAUSE (2025). *2025 Horizon Report | Teaching and Learning Edition*.
 - Gartner (2024). *Hype Cycle for Artificial Intelligence, 2025*.

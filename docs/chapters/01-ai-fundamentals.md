@@ -79,6 +79,7 @@ As instructional designers, we have a responsibility to our learners:
 
 ---
 *References:*
+
 - EDUCAUSE (2024). *2025 Horizon Report: Teaching and Learning Edition*.
 - Malamed, C. (2025). *AI Tools for Instructional Designers*. The eLearning Coach.
 - Mollick, E. (2024). *Co-Intelligence: Living and Working with AI*. Portfolio.

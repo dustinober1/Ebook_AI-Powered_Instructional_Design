@@ -66,6 +66,7 @@ Across these diverse case studies, three themes emerge:
 
 ---
 *References:*
+
 - Bolton College (2024). *Transforming Online Learning with AI Video*.
 - Georgia Institute of Technology (2024). *Jill Watson: The AI Teaching Assistant*.
 - IBM (2024). *Personalizing Corporate Learning at Scale with Watson*.
