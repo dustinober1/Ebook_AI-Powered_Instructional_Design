@@ -10,6 +10,8 @@ repo_url: https://github.com/dustinober/AI_ISD
 theme:
   name: material
   custom_dir: docs/overrides
+  logo: assets/logo.jpg
+  favicon: assets/logo.jpg
   font:
     text: Inter
     code: JetBrains Mono
