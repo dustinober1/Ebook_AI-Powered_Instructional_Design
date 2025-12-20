@@ -137,6 +137,16 @@ body {
     /* Visible placeholder text */
 }
 
+/* GitHub Repository Link Visibility */
+.md-source__repository {
+    color: #FFFFFF !important;
+}
+
+.md-source__icon {
+    color: #FFFFFF !important;
+    filter: brightness(1.2);
+}
+
 /* Navigation tabs */
 .md-tabs {
     background: var(--custom-bg-secondary) !important;
