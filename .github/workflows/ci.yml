@@ -46,3 +46,10 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+
+      - name: Upload PDF Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ebook-pdf
+          path: ./site/pdf/ai-instructional-design.pdf

@@ -46,7 +46,15 @@ plugins:
   - mkdocs-jupyter:
       include_colab_link: true
   - with-pdf:
-      output_path: ai-instructional-design.pdf
+      author: Dustin Ober
+      copyright: 2025 Dustin Ober
+      cover: true
+      back_cover: true
+      toc: true
+      index: true
+      output_path: pdf/ai-instructional-design.pdf
+      exclude_pages:
+        - maintenance.md
 
 markdown_extensions:
   - admonition
@@ -69,3 +77,4 @@ nav:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/pdf.css
