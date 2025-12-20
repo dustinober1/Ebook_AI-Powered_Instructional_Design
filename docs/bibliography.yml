@@ -32,6 +32,20 @@
   year: 2024
   publisher: "Portfolio"
 
+- id: artisan_framework_2025
+  title: "The ARTISAN Instruction Framework: A Systematic Methodology for Effective LLM Prompting"
+  authors: ["Digital Strategy Ireland"]
+  year: 2025
+  publisher: "Digital Strategy Ireland"
+  url: "https://digitalstrategy.ie/artisan-framework"
+
+- id: race_model_id
+  title: "The RACE Model for AI Prompting in Instructional Design"
+  authors: ["Infopro Learning"]
+  year: 2024
+  publisher: "Infopro Learning"
+  url: "https://www.infoprolearning.com/blog/race-model-ai-prompting/"
+
 - id: "ober2025"
   authors: ["Ober, D."]
   title: "AI-Powered Instructional Design: A Practical Guide"
