@@ -1,0 +1,4 @@
+# file: /Users/dustinober/ebooks/AI_ISD/scripts/generate_bib.py
+# hypothesis_version: 6.148.7
+
+['# Bibliography\n\n', ',', ', ', ', & ', '__main__', 'authors', 'docs/bibliography.md', 'publication', 'r', 'title', 'url', 'w', 'year']

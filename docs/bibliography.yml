@@ -1,0 +1,20 @@
+- id: "bentley2023"
+  authors: ["Bentley, K.", "Miller, D."]
+  title: "The Future of Instructional Design in the Age of AI"
+  year: 2023
+  publication: "Journal of Educational Technology"
+  url: "https://example.com/bentley2023"
+
+- id: "mollick2024"
+  authors: ["Mollick, E. R.", "Mollick, L."]
+  title: "Instructors as Innovators: A Future-forward Approach to AI in Education"
+  year: 2024
+  publication: "Wharton Interactive"
+  url: "https://example.com/mollick2024"
+
+- id: "ober2025"
+  authors: ["Ober, D."]
+  title: "AI-Powered Instructional Design: A Practical Guide"
+  year: 2025
+  publication: "Open Source Press"
+  url: "https://github.com/dustinober/AI_ISD"
