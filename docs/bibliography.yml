@@ -95,6 +95,20 @@
   publisher: "DeepLearning.AI"
   url: "https://www.deeplearning.ai/the-batch/agentic-workflows/"
 
+- id: articulate_future_id_2025
+  title: "The Evolving Role of the Instructional Designer in the Age of AI"
+  authors: ["Articulate"]
+  year: 2025
+  publisher: "Articulate Blog"
+  url: "https://articulate.com/blog/future-of-instructional-design"
+
+- id: educause_horizon_2025
+  title: "2025 Horizon Report | Teaching and Learning Edition"
+  authors: ["EDUCAUSE"]
+  year: 2025
+  publisher: "EDUCAUSE"
+  url: "https://library.educause.edu/resources/2025/horizon-report"
+
 - id: "ober2025"
   authors: ["Ober, D."]
   title: "AI-Powered Instructional Design: A Practical Guide"

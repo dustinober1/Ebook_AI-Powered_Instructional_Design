@@ -2,6 +2,8 @@
 
 All sources cited in this ebook follow the APA 7th Edition format.
 
+- Articulate (2025). *The Evolving Role of the Instructional Designer in the Age of AI*. https://articulate.com/blog/future-of-instructional-design
+
 - Bentley, K. & Miller, D. (2023). *The Future of Instructional Design in the Age of AI*. Journal of Educational Technology. https://example.com/bentley2023
 
 - Bolton College (2024). *Transforming Online Learning with AI Video*. https://www.synthesia.io/case-studies/bolton-college
@@ -13,6 +15,8 @@ All sources cited in this ebook follow the APA 7th Edition format.
 - Digital Strategy Ireland (2025). *The ARTISAN Instruction Framework: A Systematic Methodology for Effective LLM Prompting*. https://digitalstrategy.ie/artisan-framework
 
 - EDUCAUSE (2024). *2025 Horizon Report: Teaching and Learning Edition*. https://library.educause.edu/resources/2024/2024-horizon-report-teaching-and-learning-edition
+
+- EDUCAUSE (2025). *2025 Horizon Report | Teaching and Learning Edition*. https://library.educause.edu/resources/2025/horizon-report
 
 - Edcafe AI (2025). *AI-Powered Toolkit for Educators*. https://edcafe.ai
 
