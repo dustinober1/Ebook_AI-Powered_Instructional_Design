@@ -12,6 +12,26 @@
   publication: "Wharton Interactive"
   url: "https://example.com/mollick2024"
 
+- id: educause_horizon_2025
+  title: "2025 Horizon Report: Teaching and Learning Edition"
+  authors: ["EDUCAUSE"]
+  year: 2024
+  publisher: "EDUCAUSE"
+  url: "https://library.educause.edu/resources/2024/2024-horizon-report-teaching-and-learning-edition"
+
+- id: gartner_hype_2025
+  title: "Hype Cycle for Artificial Intelligence, 2025"
+  authors: ["Gartner"]
+  year: 2024
+  publisher: "Gartner"
+  url: "https://www.gartner.com/en/documents/5623869"
+
+- id: mollick_2024_book
+  title: "Co-Intelligence: Living and Working with AI"
+  authors: ["Mollick, E."]
+  year: 2024
+  publisher: "Portfolio"
+
 - id: "ober2025"
   authors: ["Ober, D."]
   title: "AI-Powered Instructional Design: A Practical Guide"

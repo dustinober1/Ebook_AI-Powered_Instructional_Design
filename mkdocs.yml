@@ -72,9 +72,12 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Chapter Template: template_chapter.md
+  - Chapters:
+    - 0. Introduction: chapters/00-introduction.md
+    - 1. AI Fundamentals: chapters/01-ai-fundamentals.md
   - Bibliography: bibliography.md
   - Maintenance Dashboard: maintenance.md
+  - Chapter Template: template_chapter.md
 
 extra_css:
   - stylesheets/extra.css

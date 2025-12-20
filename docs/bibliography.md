@@ -4,7 +4,13 @@ All sources cited in this ebook follow the APA 7th Edition format.
 
 - Bentley, K. & Miller, D. (2023). *The Future of Instructional Design in the Age of AI*. Journal of Educational Technology. https://example.com/bentley2023
 
+- EDUCAUSE (2024). *2025 Horizon Report: Teaching and Learning Edition*. https://library.educause.edu/resources/2024/2024-horizon-report-teaching-and-learning-edition
+
+- Gartner (2024). *Hype Cycle for Artificial Intelligence, 2025*. https://www.gartner.com/en/documents/5623869
+
 - Mollick, E. R. & Mollick, L. (2024). *Instructors as Innovators: A Future-forward Approach to AI in Education*. Wharton Interactive. https://example.com/mollick2024
+
+- Mollick, E. (2024). *Co-Intelligence: Living and Working with AI*.
 
 - Ober, D. (2025). *AI-Powered Instructional Design: A Practical Guide*. Open Source Press. https://github.com/dustinober/AI_ISD
 

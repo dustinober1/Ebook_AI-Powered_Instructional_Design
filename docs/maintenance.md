@@ -5,7 +5,8 @@ This page tracks the review status of all ebook content based on the `last_revie
 | Page | Last Reviewed | Status | Authors |
 | --- | --- | --- | --- |
 | bibliography.md |  | ⚠️ Unknown |  |
-| 01-ai-fundamentals.ipynb |  | ⚠️ Unknown |  |
+| Chapter 0: Introduction | 2025-12-20 | ✅ Fresh | Dustin Ober |
+| Chapter 1: AI Fundamentals | 2025-12-20 | ✅ Fresh | Dustin Ober |
 | index.md |  | ⚠️ Unknown |  |
 | maintenance.md |  | ⚠️ Unknown |  |
 | Chapter Title | 2025-12-20 | ✅ Fresh | Dustin Ober |
