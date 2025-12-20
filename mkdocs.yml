@@ -65,6 +65,7 @@ nav:
   - Home: index.md
   - Chapter Template: template_chapter.md
   - Bibliography: bibliography.md
+  - Maintenance Dashboard: maintenance.md
 
 extra_css:
   - stylesheets/extra.css
