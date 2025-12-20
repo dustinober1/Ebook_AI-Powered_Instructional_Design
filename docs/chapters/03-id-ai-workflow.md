@@ -8,6 +8,8 @@ reading_time: 12 min
 authors: ["Dustin Ober"]
 ---
 
+![The ID-AI Workflow: Augmenting ADDIE](../assets/chapter-03-cover.jpg)
+
 # The ID-AI Workflow: Augmenting ADDIE
 
 The ADDIE model (Analysis, Design, Development, Implementation, and Evaluation) has been the gold standard for instructional design for decades. As Devlin Peck (2025) notes, over 50% of instructional designers are now using AI daily or weekly to revolutionize the **speed and depth** of this workflow.
