@@ -1,0 +1,57 @@
+site_name: AI-Powered Instructional Design
+site_description: An open-source ebook exploring the intersection of AI and Instructional Design.
+site_author: Dustin Ober
+site_url: https://dustinober.github.io/AI_ISD/
+
+repo_name: dustinober/AI_ISD
+repo_url: https://github.com/dustinober/AI_ISD
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.annotate
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include_colab_link: true
+  - with-pdf:
+      output_path: ai-instructional-design.pdf
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
