@@ -8,6 +8,8 @@ reading_time: 12 min
 authors: ["Dustin Ober"]
 ---
 
+![Case Studies and Practical Examples](../assets/chapter-04-cover.jpg)
+
 # Case Studies and Practical Examples
 
 To understand the true power of AI-powered instructional design, we must look beyond the tools and frameworks to the real-world impact. This chapter highlights how organizations in corporate and higher education are using AI to solve complex learning challenges.
