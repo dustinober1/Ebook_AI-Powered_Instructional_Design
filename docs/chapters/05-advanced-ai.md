@@ -8,6 +8,8 @@ reading_time: 15 min
 authors: ["Dustin Ober"]
 ---
 
+![Advanced AI Implementation: Agents & RAG](../assets/chapter-05-cover.jpg)
+
 # Advanced AI Implementation: Agents & RAG
 
 In the previous chapters, we focused on how to communicate with AI using prompts and how to integrate it into your workflow. However, to build truly powerful, "hallucination-free" learning experiences, we must move beyond the basic chat interface. This chapter explores **Retrieval-Augmented Generation (RAG)** and **Agentic Workflows**.
