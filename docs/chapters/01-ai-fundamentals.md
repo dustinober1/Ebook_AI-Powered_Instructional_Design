@@ -74,10 +74,14 @@ With hundreds of new AI tools launching every week, how do you choose the right 
 
 ## 6. The "Hallucination" Problem
 
-One of the biggest challenges in AI-Powered ID is **hallucination**—when the model generates factually incorrect information that sounds highly convincing.
+**Hallucination** occurs when an AI model confidently generates factually incorrect information. To mitigate this risk:
+
+- **Verify Everything:** Treat all AI outputs as drafts requiring validation.
+- **SME Review:** Always involve Subject Matter Experts to check accuracy.
+- **Role Definition:** View AI as a creative partner, not a source of truth.
 
 > [!IMPORTANT]
-> Never use AI-generated content in a learning module without a Subject Matter Expert (SME) or your own rigorous verification. AI is a creative assistant, not an encyclopedia.
+> Never use AI-generated content in a learning module without rigorous human verification.
 
 ## 7. Ethical Considerations
 
