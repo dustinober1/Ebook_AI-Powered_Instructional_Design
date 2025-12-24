@@ -12,13 +12,13 @@ authors: ["Dustin Ober"]
 
 # The Dawn of AI-Powered Instructional Design
 
-The instructional design (ID) landscape is undergoing its most significant transformation since the advent of the World Wide Web. As we move into 2025, Artificial Intelligence is no longer just a "futuristic concept"—it is a critical partner in the design, development, and delivery of learning experiences.
+The field of instructional design (ID) is experiencing its most profound transformation since the dawn of the World Wide Web. As we move into 2025, Artificial Intelligence is no longer just a "futuristic concept"—it is a critical partner in the design, development, and delivery of learning experiences.
 
 ## From Automation to Augmentation
 
 For years, the conversation around AI in ID was dominated by the fear of replacement. However, as noted in the *2024 EDUCAUSE Horizon Report*, generative AI (GenAI) is acting more as a **catalyst** for evolving teaching practices rather than a substitute for human ingenuity (EDUCAUSE, 2024).
 
-We are moving away from simple automation (using AI to do a task for us) toward **augmentation** (using AI to do things we couldn't do before). This e-book is built on the philosophy of **Co-Intelligence**, a term coined by Ethan Mollick (2024), where the instructional designer and the AI work in a symbiotic loop.
+We are moving away from simple automation (using AI to do a task for us) toward **augmentation** (using AI to do things we couldn't do before). This e-book explores the philosophy of **Co-Intelligence**, a concept coined by Ethan Mollick (2024), where instructional designers and AI collaborate in a truly symbiotic partnership.
 
 ## The AI-Powered ID Persona
 
