@@ -32,6 +32,11 @@ A common problem with LLMs is that they are trained on public data. They don't k
 > [!TIP]
 > RAG is the single most effective way for Instructional Designers to eliminate AI hallucinations. It forces the AI to "cite its sources" from your approved materials.
 
+### RAG vs. Fine-Tuning: The ID's Choice
+In 2025, IDs often ask if they should "Fine-Tune" a model on their data instead of using RAG.
+*   **Use RAG when**: You need **factual accuracy**. If your content changes weekly (e.g., software updates), RAG is superior because you just swap the PDF in the "shell."
+*   **Use Fine-Tuning when**: You need a specific **style or specialized vocabulary**. If you want the AI to write exactly like your company’s unique pedagogical voice or understand highly specialized medical jargon, fine-tuning helps the model "speak the language."
+
 ## 2. Agentic Workflows: The Power of Delegation
 
 In a standard workflow, you give a prompt and get a response. In an **Agentic Workflow**, you give a goal, and the AI works in a loop to figure out how to achieve it (Ng, 2024).
@@ -42,6 +47,11 @@ Andrew Ng (2024) identifies four key patterns for agentic design:
 2.  **Tool Use**: The agent can decide to use a calculator, search the web, or run code to solve a problem.
 3.  **Planning**: The agent breaks a complex goal (e.g., "Build a full 4-week course") into a sequence of smaller tasks.
 4.  **Multi-agent Collaboration**: Different agents with specialized roles (e.g., a "Quiz Agent" and an "Outline Agent") talk to each other to produce a final product.
+
+### Orchestration Patterns
+When building an AI design team, consider these two patterns:
+*   **Hierarchical**: A "Manager Agent" takes your goal, breaks it into tasks, and assigns them to specialized "Worker Agents" (e.g., Writer, SME, and Graphic Designer). The Manager reviews all work before it reaches the human.
+*   **Sequential/Chain**: A linear flow where the output of the "Needs Analysis Agent" becomes the input for the "Learning Objective Agent," and so on.
 
 ## 3. Localized Knowledge Shells for ID
 
@@ -63,6 +73,19 @@ When implementing advanced AI, security is paramount. Instructional designers mu
 
 
 - These are secure "bubbles" within your company’s cloud where you can safely upload proprietary training data without it being used to train the public models (Databricks, 2025).
+
+## 6. Synthetic Data & Stress-Testing
+
+One of the most powerful advanced uses of AI is the generation of **Synthetic Data**.
+*   **Stress-Testing Simulations**: Use an AI agent to play through a branching scenario 1,000 times, making different mistakes each time to ensure all paths lead to the correct learning outcomes and that no "dead ends" exist.
+*   **Privacy-Safe Practice**: If you are training learners on how to use a CRM or medical database, use AI to generate thousands of "fake" but realistic patient or customer records to populate your training environment without violating privacy laws (like GDPR or HIPAA).
+
+## 7. Measuring Quality: LLM-as-a-Judge
+
+As you scale AI content, you can no longer review every word manually. We now use **LLM-as-a-Judge** frameworks (like RAGAS) to automate the "Human Quality Gate" for initial drafts.
+*   **Faithfulness**: Does the answer only use facts from the RAG textbook?
+*   **Relevance**: Does the answer actually address the learner's specific question?
+*   **Answer Correctness**: Comparing the AI’s answer against a "Gold Standard" answer provided by an SME.
 
 ---
 

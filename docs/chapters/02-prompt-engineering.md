@@ -62,7 +62,27 @@ Add the instruction **"Think step-by-step"** or "Outline your reasoning before p
 Ask the AI to critique its own work. 
 *Example Prompt*: "Review the microlearning draft you just provided. Identify any areas where the learning objectives are not met, and then rewrite the draft to address those gaps."
 
-## 4. The ID-AI Feedback Loop
+### Meta-Prompting: AI as the Optimizer
+Don't struggle to write the perfect prompt from scratch. Use the AI to help you.
+*   **Technique**: Ask the LLM to act as an expert Prompt Engineer.
+*   **Example**: "I want to create a role-play scenario for customer service. Act as an expert Prompt Engineer. Ask me 5 questions to help clarify my needs, then write the best possible prompt for me to use."
+
+## 4. From Prompts to Agents
+
+In 2025, we are moving beyond single-turn prompts to **Agentic Workflows**.
+*   **Prompt**: A single input/output interaction (e.g., "Write a quiz question").
+*   **Agent**: A system given a *goal* that can plan and execute multiple steps to achieve it.
+    *   *Example*: "Create a full lesson on Safety." An agent might first research regulations, then outline the topics, then draft the content, and finally generate the quiz, all while checking its own work against the learning objectives. This connects directly to your role as a **Learning Architect**.
+
+## 5. Structured Data for Automation
+
+Text is great for reading, but bad for systems. To integrate AI into your LMS or authoring tools (like Storyline or Rise), you need **Structured Data**.
+*   **JSON/XML**: Ask the AI to output content in code formats.
+*   **xAPI**: "Generate xAPI statements for this scenario indicating 'Attempted', 'Completed', and 'Passed'."
+*   **Bulk Uploads**: "Format this quiz as a CSV file compatible with the specific import template for [LMS Name]."
+This allows you to copy-paste code directly into your tools, saving hours of manual formatting.
+
+## 6. The ID-AI Feedback Loop
 
 Prompt engineering is rarely a "one-and-done" task. It is an iterative loop:
 
