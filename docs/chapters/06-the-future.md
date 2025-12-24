@@ -8,9 +8,11 @@ reading_time: 5 min
 authors: ["Dustin Ober"]
 ---
 
-![The Future of AI-Powered Instructional Design](../assets/chapter-06-cover.jpg)
+![Futuristic visualization of hyper-personalized learning landscapes](../assets/chapter-06-cover.jpg)
 
 # The Future of AI-Powered Instructional Design
+
+In **[Chapter 5](05-advanced-ai.md)**, we explored the technical architecture of high-fidelity AI systems. We are at the precipice of the "Third Wave" of AI in education. If the first wave was basic automation and the second wave was generative assistance, the third wave (2025–2030) will be defined by **autonomous orchestration** and **hyper-personalization**.
 
 We are at the precipice of the "Third Wave" of AI in education. If the first wave was basic automation and the second wave was generative assistance, the third wave (2025–2030) will be defined by **autonomous orchestration** and **hyper-personalization**.
 
@@ -72,7 +74,11 @@ What is one skill you use today that you think an AI will do better in 2030? Wha
 ---
 *References:*
 
-- Articulate (2025). *The Evolving Role of the Instructional Designer in the Age of AI*.
+- Articulate (2025). *How AI is Transforming Instructional Design*.
 - EDUCAUSE (2025). *2025 Horizon Report | Teaching and Learning Edition*.
-- Gartner (2024). *Hype Cycle for Artificial Intelligence, 2025*.
+- Gartner (2025). *Hype Cycle for Artificial Intelligence, 2025*.
 - Miao, X. & Mishra, P. K. (2025). *Preparing Future-Ready Learners: K12 Skills Shift and GenAI EdTech Innovation Direction*.
+
+
+### What’s Next?
+Understanding the future vision is critical, but implementing it requires more than technical skill—it requires leadership. In our final chapter, **[Chapter 7: Leading the AI Transformation](07-leading-ai-transformation.md)**, we will discuss how to move from an individual contributor to a strategic leader in your organization.

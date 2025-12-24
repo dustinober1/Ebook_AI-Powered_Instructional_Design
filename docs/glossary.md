@@ -2,8 +2,8 @@
 title: "Glossary of Terms"
 description: "Key definitions for AI and Instructional Design concepts used in this ebook."
 tags: ["glossary", "definitions", "reference"]
-last_reviewed: 2025-12-20
-reading_time: 3 min
+last_reviewed: 2025-12-24
+reading_time: 4 min
 authors: ["Dustin Ober"]
 ---
 
@@ -13,11 +13,19 @@ A quick reference guide to the technical and instructional design terms used thr
 
 ## A
 
+### ADDIE Model
+The traditional instructional design framework consisting of five phases: Analysis, Design, Development, Implementation, and Evaluation. AI is reshaping this model into a more iterative, data-driven cycle.
+
 ### Agent / Agentic Workflow
 An AI system capable of autonomous decision-making and tool use to achieve a high-level goal. Unlike a standard chatbot that just answers a prompt, an agent can plan steps, browse the web, or execute code to complete a complex task.
 
 ### Artificial Intelligence (AI)
 The simulation of human intelligence processes by machines, especially computer systems. In this book, we primarily focus on **Generative AI** and **Large Language Models**.
+
+## B
+
+### Bloom’s Taxonomy
+A framework for categorizing educational goals, moving from basic recall (Remembering) to complex cognition (Creating). AI is often used to automate the creation of lower-level content, freeing IDs to focus on higher-order objectives.
 
 ## C
 
@@ -26,6 +34,11 @@ The amount of information (measured in tokens) an LLM can retain and process in 
 
 ### Co-Intelligence
 A concept coined by Ethan Mollick describing a partnership model where humans and AI work together in a symbiotic loop, with each party enhancing the capabilities of the other.
+
+## F
+
+### Fine-Tuning
+The process of further training a pre-trained AI model on a specific dataset to adapt it to a particular domain or style. Unlike RAG, which provides knowledge, fine-tuning changes the model's internal patterns.
 
 ## G
 
@@ -63,6 +76,9 @@ A technique that connects an LLM to a specific, private knowledge base (like a c
 ### SCORM (Shareable Content Object Reference Model)
 A set of technical standards for e-learning software products. It tells programmers how to write their code so that it can "play well" with other e-learning software.
 
+### Subject Matter Expert (SME)
+The authority on a given topic (e.g., a Chief Engineer or Head of Compliance) who partners with the Instructional Designer to ensure content accuracy.
+
 ### Synthetic Learners
 AI-simulated personas that mimic the behaviors, questions, and misconceptions of real students. Designers use them to stress-test curriculum and practice handling difficult classroom scenarios.
 
@@ -71,7 +87,16 @@ AI-simulated personas that mimic the behaviors, questions, and misconceptions of
 ### Token
 The basic unit of text that an LLM reads and generates. A token can be a word, part of a word, or a character. A useful rule of thumb is **1,000 tokens ≈ 750 words**.
 
+## X
+
+### xAPI (Experience API)
+A standard for tracking learning experiences. Unlike SCORM, which mostly tracks "completion," xAPI can track specific actions (e.g., "User paused the video at 2:00," "User asked the AI for a hint"), providing richer data for analysis.
+
 ## Z
+
+### Zero-Drafting
+A technique where AI is used to instantly generate a first prototype (or "draft zero") of a course or module. This moves the design process from "blank page" to "editing and refining" immediately.
 
 ### Zero-Shot Prompting
 Asking an AI model to perform a task without providing any examples. (Contrast with **Few-Shot Prompting**, where you provide a few examples of the desired output format).
+

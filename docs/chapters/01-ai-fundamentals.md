@@ -3,25 +3,26 @@ title: "Chapter 1: AI Fundamentals"
 description: "Understanding the engine behind the AI-Powered ID: LLMs, tokens, and the mechanics of generative intelligence."
 tags: ["foundations", "LLMs", "technical"]
 difficulty: "Intermediate"
-last_reviewed: 2025-12-20
+last_reviewed: 2025-12-24
 reading_time: 4 min
 authors: ["Dustin Ober"]
 ---
 
-![AI Fundamentals for Instructional Designers](../assets/chapter-01-cover.jpg)
+![Diagram showing the relationship between LLMs, tokens, and the instructional designer as architect](../assets/chapter-01-cover.jpg)
 
 # AI Fundamentals for Instructional Designers
 
-To design effective learning experiences with AI, we must first understand the "engine" that powers our tools. This chapter demystifies Large Language Models (LLMs) and explains the core concepts that every instructional designer should know.
+In **[Chapter 0](00-introduction.md)**, we established the vision of the AI-powered instructional designer as a "Learning Architect." To fulfill that role, we must first understand the "engine" that powers our tools. This chapter demystifies Large Language Models (LLMs) and explains the core concepts that every instructional designer should know.
 
 ## 1. What is an LLM?
 
 A Large Language Model is a type of artificial intelligence trained on massive amounts of text data. It uses statistical patterns to predict the next word (or "token") in a sequence. 
 
 > [!NOTE]
-> Think of an LLM as a highly sophisticated "auto-complete" built on the sum of human digital knowledge.
+> [!NOTE]
+Think of an LLM as a highly sophisticated "auto-complete" built on the sum of human digital knowledge.
 
-For an ID, an LLM is more than a chatbot; it is a **reasoning engine**. It can synthesize information, take on personas (e.g., "Act as a subject matter expert in physics"), and format content into specific structures (e.g., "Generate a SCORM-compliant outline").
+For an ID, an LLM is more than a chatbot; it is a **reasoning engine**. It can synthesize information, take on personas (e.g., "Act as a subject matter expert in physics"), and format content into specific structures (e.g., "Generate a SCORM (Shareable Content Object Reference Model) compliant outline").
 
 ### The Evolution: ID to Learning Architect
 As AI commoditizes content production (writing, coding, image generation), the Instructional Designer's role is shifting. We are moving from being "builders" who lay every brick to **Learning Architects**.
@@ -70,7 +71,8 @@ While ChatGPT (and other LLMs like Claude or Gemini) are the most famous tools, 
 - **Productivity**: **Otter.ai** (meeting transcription), **Notion AI**.
 
 > [!TIP]
-> Tools evolve rapidly. Focus on the *category* of the tool (e.g., "AI Voice Generator") rather than becoming dependent on a single brand.
+> [!TIP]
+Tools evolve rapidly. Focus on the *category* of the tool (e.g., "AI Voice Generator") rather than becoming dependent on a single brand.
 
 ## 6. Evaluating AI Tools: A Framework for IDs
 
@@ -81,11 +83,12 @@ With hundreds of new AI tools launching every week, how do you choose the right 
 | **Privacy & Security**       | Does this tool use my data to train its public models? (If yes, do NOT use for proprietary content).                                                 |
 | **Accuracy (Hallucination)** | How does the tool cite its sources? Can I verify the output easily?                                                                                  |
 | **Cost vs. ROI**             | Does the time saved by this tool justify the subscription cost? (e.g., A $30/mo video generator is worth it if it saves 10 hours of animation work). |
-| **Exportability**            | Can I easily export the content to my LMS or authoring tool (e.g., SCORM, HTML5, MP4)?                                                               |
-| **Accessibility**            | Does the output meet WCAG standards (e.g., auto-captions for video)?                                                                                 |
+| **Exportability**            | Can I easily export the content to my Learning Management System (LMS) or authoring tool (e.g., SCORM, HTML5, MP4)?                                                               |
+| **Accessibility**            | Does the output meet Web Content Accessibility Guidelines (WCAG) standards (e.g., auto-captions for video)?                                                                                 |
 
 > [!TIP]
-> **Start Small:** Don't try to overhaul your entire process at once. Pick *one* tool to solve *one* specific bottleneck (e.g., "I need faster audio narration") and evaluate its ROI for that specific task.
+> [!TIP]
+**Start Small:** Don't try to overhaul your entire process at once. Pick *one* tool to solve *one* specific bottleneck (e.g., "I need faster audio narration") and evaluate its ROI for that specific task.
 
 ## 7. The "Hallucination" Problem
 
@@ -96,7 +99,8 @@ With hundreds of new AI tools launching every week, how do you choose the right 
 - **Role Definition:** View AI as a creative partner, not a source of truth.
 
 > [!IMPORTANT]
-> Never use AI-generated content in a learning module without rigorous human verification.
+> [!IMPORTANT]
+Never use AI-generated content in a learning module without rigorous human verification.
 
 ## 8. Ethical Considerations
 
@@ -104,7 +108,7 @@ As instructional designers, we have a responsibility to our learners:
 
 - **Bias**: AI models can inherit biases from their training data. We must audit outputs for gender, racial, and cultural bias.
 - **Privacy**: Never input sensitive student data or proprietary company information into public AI models.
-- **Accessibility**: Ensure AI-generated content (images, video, text) meets WCAG 2.1 standards. AI can help generate alt-text, but a human must verify it for accuracy and context.
+- **Accessibility**: Ensure AI-generated content (images, video, text) meets Web Content Accessibility Guidelines (WCAG) 2.1 standards. AI can help generate alt-text, but a human must verify it for accuracy and context.
 - **Academic Integrity**: We must design assessments that focus on higher-order thinking (Bloom’s Taxonomy) which AI cannot easily replicate without human synthesis.
 
 ### The Black Box of Assessment
@@ -117,14 +121,22 @@ While we often worry about students using AI to cheat, we must also scrutinize o
 
 ### Reflection Exercise
 
-1.  Choose a topic you are currently teaching.
-2.  Write a prompt for an LLM to generate three different ways to introduce that topic.
-3.  Evaluate the output: Which one is the most engaging? Did the model hallucinate any facts?
+**Goal**: Compare AI outputs for creativity vs. accuracy.
+
+1.  **Topic Selection**: Choose a topic you are currently teaching (e.g., "Fire Safety" or "Python Basics").
+2.  **Prompt**: Ask an LLM (like ChatGPT or Claude) to: *"Generate three different creative analogies to explain [Topic] to a complete beginner."*
+3.  **Evaluate**:
+    *   **Engagement**: Which analogy is the most "sticky" or memorable?
+    *   **Accuracy**: Did the analogy simplify the concept too much, introducing a misconception (hallucination)?
+    *   **Outcome**: Rewrite the best analogy to fix any inaccuracies.
 
 ---
 *References:*
 
 - EDUCAUSE (2025). *2025 Horizon Report: Teaching and Learning Edition*.
-- Malamed, C. (2025). *AI Tools for Instructional Designers*. The eLearning Coach.
+- Malamed, C. (2025). *What AI Tools Are Instructional Designers Using?*. The eLearning Coach.
 - Mollick, E. (2024). *Co-Intelligence: Living and Working with AI*. Portfolio.
 - Moore, C. (2025). *Best AI Tools for Instructional Designers*.
+
+### What’s Next?
+Now that you understand the mechanics of the LLM engine, it’s time to learn how to drive it. In **[Chapter 2: Prompt Engineering](02-prompt-engineering.md)**, we will master the art and science of communicating with AI to get high-quality, pedagogically sound results every time.

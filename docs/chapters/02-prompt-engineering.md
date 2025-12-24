@@ -3,12 +3,12 @@ title: "Chapter 2: Prompt Engineering for IDs"
 description: "Mastering the art and science of communicating with LLMs: Frameworks, techniques, and the ID-AI feedback loop."
 tags: ["prompt-engineering", "frameworks", "workflow"]
 difficulty: "Intermediate"
-last_reviewed: 2025-12-20
+last_reviewed: 2025-12-24
 reading_time: 3 min
 authors: ["Dustin Ober"]
 ---
 
-![Prompt Engineering for Instructional Designers](../assets/chapter-02-cover.jpg)
+![Infographic showing the RACE and DETAIL prompt engineering frameworks](../assets/chapter-02-cover.jpg)
 
 # Prompt Engineering for Instructional Designers
 
@@ -93,5 +93,18 @@ Prompt engineering is rarely a "one-and-done" task. It is an iterative loop:
 
 ---
 
-### Hands-On Exercise
-Using the **RACE Model**, draft a prompt to generate a 5-question multiple-choice quiz based on a specific paragraph from Chapter 1. Then, refine the prompt by adding a constraint to "provide feedback for both correct and incorrect answers."
+### Hands-On Exercise: The RACE Model in Action
+
+**Goal**: Draft a structured prompt to generate assessment items.
+
+1.  **Scenario**: You need to create a 5-question multiple-choice quiz based on the "Hallucination" section in Chapter 1.
+2.  **Task**: Use the RACE framework to draft your prompt.
+    *   **Role**: *Act as an expert Instructional Designer.*
+    *   **Action**: *Create a 5-question multiple-choice quiz.*
+    *   **Context**: *The topic is AI Hallucinations. The audience is beginner designers.*
+    *   **Expectations**: *Format as a table. Include clear feedback for both correct and incorrect answers.*
+3.  **Refinement**: Run the prompt. If the distractors are too easy, add a **Constraint**: *"Ensure distractors are plausible misconceptions, not obvious errors."*
+
+
+### What’s Next?
+Mastering individual prompts is the first step. In **[Chapter 3: The ID-AI Workflow](03-id-ai-workflow.md)**, we will scale these techniques across the entire instructional design lifecycle, reimagining the ADDIE model for the age of AI.

@@ -3,12 +3,12 @@ title: "Chapter 0: Introduction"
 description: "The dawn of AI-powered instructional design: Why we are entering a new era of collaborative creativity."
 tags: ["introduction", "vision", "strategy"]
 difficulty: "Beginner"
-last_reviewed: 2025-12-20
+last_reviewed: 2025-12-24
 reading_time: 2 min
 authors: ["Dustin Ober"]
 ---
 
-![The Dawn of AI-Powered Instructional Design](../assets/chapter-00-cover.jpg)
+![Abstract representation of a human and AI brain collaborating on a digital canvas](../assets/chapter-00-cover.jpg)
 
 # The Dawn of AI-Powered Instructional Design
 
@@ -44,3 +44,6 @@ Welcome to the future of learning. Let's build it together.
 - AI is an enhancement tool, not a replacement.
 - The shift is toward personalized, scalable, and efficient design.
 - Human empathy and ethical judgment remain the core of valid instructional design.
+
+### What’s Next?
+In the next chapter, we will dive into the technical engine of this transformation: **AI Fundamentals**. We will explore how LLMs work and the core concepts every instructional designer needs to master before building their first AI-powered module.

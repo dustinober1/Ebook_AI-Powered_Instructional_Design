@@ -3,16 +3,16 @@ title: "Chapter 7: Leading the AI Transformation"
 description: "Moving from individual contributor to strategic leader: Building the business case, upskilling teams, and managing the human side of AI adoption."
 tags: ["strategy", "leadership", "change-management", "ROI"]
 difficulty: "Advanced"
-last_reviewed: 2025-12-23
+last_reviewed: 2025-12-24
 reading_time: 5 min
 authors: ["Dustin Ober"]
 ---
 
-![Leading the AI Transformation](../assets/chapter-07-cover.jpg)
+![A leader guiding a team through digital and AI skills transformation](../assets/chapter-07-cover.jpg)
 
 # Leading the AI Transformation
 
-The previous chapters gave you the *skills* to use AI. This chapter gives you the *strategy* to lead it. As an Instructional Designer in 2025, you are not just a content creator; you are a change agent. To successfully integrate AI into your organization, you must master the art of "Leading the Transformation."
+The previous chapters gave you the technical skills and the future vision of AI-powered instructional design. From understanding LLMs in **[Chapter 1](01-ai-fundamentals.md)** to exploring RAG and Agents in **[Chapter 5](05-advanced-ai.md)**, you now have the toolkit of a Learning Architect. This final chapter gives you the *strategy* to lead it. As an Instructional Designer in 2025, you are not just a content creator; you are a change agent.
 
 ## 1. Building the Business Case: Beyond "Faster"
 
@@ -37,7 +37,8 @@ The shift to AI requires a radical reskilling of your L&D department. The "ADDIE
 | **QA (Typos)** | **QA (Bias, Hallucination, & Pedagogy)** |
 
 > [!TIP]
-> **Start with "AI Champions"**: Don't force the entire team to switch at once. Identify 1-2 early adopters to pilot new workflows and share their "wins" with the group.
+> [!TIP]
+**Start with "AI Champions"**: Don't force the entire team to switch at once. Identify 1-2 early adopters to pilot new workflows and share their "wins" with the group.
 
 ## 3. Overcoming Resistance and Fear
 
@@ -64,10 +65,18 @@ By focusing on strategy, upskilling your team with empathy, and establishing fir
 
 ---
 
-### Reflection Exercise
-Draft a 30-second "Elevator Pitch" for your Chief Learning Officer (CLO). Focus on one specific business pain point (e.g., slow onboarding, low engagement) and how an AI-driven workflow solves it better than the current method.
+### Reflection Exercise: The Pitch Deck
+
+**Goal**: Prepare for a real leadership conversation.
+
+1.  **Audience**: Identify the key decision-maker (e.g., CLO, HR Director, CTO).
+2.  **Problem**: Select one pain point they care about (e.g., "Onboarding takes too long").
+3.  **Solution**: Draft a 3-slide outline:
+    *   **Slide 1**: The Problem & The Cost of Status Quo.
+    *   **Slide 2**: The AI-Augmented Solution (How it solves the problem faster/better).
+    *   **Slide 3**: The "Ask" (Pilot program budget, tool access, etc.).
 
 ---
 *References:*
-- McKinsey & Company (2025). *The Economic Potential of Generative AI*.
-- SHRM (2025). *Managing the AI Workforce Transformation*.
+- McKinsey & Company (2023). *The Economic Potential of Generative AI*.
+- SHRM (2025). *From Adoption to Empowerment: Shaping the AI-Driven Workforce of Tomorrow*.

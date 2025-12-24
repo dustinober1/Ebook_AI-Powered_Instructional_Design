@@ -6,7 +6,7 @@ last_reviewed: 2025-12-20
 authors: ["Dustin Ober"]
 ---
 
-![AI-Powered Instructional Design Cover](assets/logo.jpg)
+![Logo for AI-Powered Instructional Design: A digital brain icon integrated with a graduation cap](assets/logo.jpg)
 
 # AI-Powered Instructional Design
 

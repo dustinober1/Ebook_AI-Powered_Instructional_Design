@@ -3,16 +3,16 @@ title: "Chapter 3: The ID-AI Workflow"
 description: "Reimagining the ADDIE model with AI: How to augment every stage of the instructional design lifecycle."
 tags: ["ADDIE", "workflow", "automation", "strategy"]
 difficulty: "Intermediate"
-last_reviewed: 2025-12-20
+last_reviewed: 2025-12-24
 reading_time: 4 min
 authors: ["Dustin Ober"]
 ---
 
-![The ID-AI Workflow: Augmenting ADDIE](../assets/chapter-03-cover.jpg)
+![Flowchart of the ADDIE model with AI-augmented tasks at each stage](../assets/chapter-03-cover.jpg)
 
 # The ID-AI Workflow: Augmenting ADDIE
 
-The ADDIE model (Analysis, Design, Development, Implementation, and Evaluation) has been the gold standard for instructional design for decades. Recent industry surveys suggest a rapidly growing number of instructional designers are adopting AI to revolutionize the **speed and depth** of this workflow.
+In **[Chapter 2](02-prompt-engineering.md)**, we mastered the tactical skill of prompt engineering. Now, we apply those skills strategically to the gold standard of instructional design. The ADDIE model (Analysis, Design, Development, Implementation, and Evaluation) has been the gold standard for instructional design for decades. Recent industry surveys suggest a rapidly growing number of instructional designers are adopting AI to revolutionize the **speed and depth** of this workflow.
 
 ## 1. Analysis: Precision and Speed
 
@@ -36,10 +36,8 @@ The design phase is where the ID-AI "Co-Intelligence" loop really shines.
 This is the most visible area of impact. Reports from ed-tech firms indicate that companies using AI-powered tools can significantly reduce course development time, allowing designers to focus on high-level strategy rather than rote production.
 
 - **Rapid Prototyping**: Tools like **Courseau** can convert a raw PDF into a structured course in minutes.
-- **Multimedia Production**: 
-    - **Video**: Use **Synthesia** or **Meteora** to create professional video lessons with AI avatars.
-    - **Audio**: Generate high-quality voiceovers from text using **Murf.AI**.
-    - **Assessments**: AI can generate varied question types based on the course content.
+- **Multimedia Production**: AI-powered video (**Synthesia**) and audio (**Murf.AI**) tools significantly reduce production time. For a comprehensive list of recommended tools, see the **AI Toolbox in Chapter 1**.
+- **Assessments**: AI can generate varied question types based on the course content.
 
 ## 4. Implementation: The Adaptive Classroom
 
@@ -79,8 +77,14 @@ In an AI-augmented workflow, the human role shifts from *producer* to *editor-in
 
 ---
 
-### Case Study: Rapid Program Development
-In 2024, a global leadership firm used a strategic AI workflow to develop a new training program. By using AI-driven Analysis and Development tools (like those highlighted by Devlin Peck), they reduced their time-to-market dramatically while maintaining high learner engagement scores.
+### Reflection Exercise: The Zero-Draft Challenge
+
+**Goal**: Experience the speed of "Zero-Drafting."
+
+1.  **Select a Topic**: Choose a 5-minute topic (e.g., "How to Reset Your Password").
+2.  **Traditional**: Set a timer for 10 minutes. Sketch a storyboard for this topic by hand.
+3.  **AI-Augmented**: Set a timer for 10 minutes. Use an LLM to generate a full script, quiz, and slide outline for the same topic.
+4.  **Compare**: Which output is closer to being "client-ready"? How much editing does the AI draft need compared to the time it would take to build the storyboard from scratch?
 
 ---
 *References:*
@@ -90,3 +94,7 @@ In 2024, a global leadership firm used a strategic AI workflow to develop a new 
 - Disco (2025). *AI for Instructional Design: Using the ADDIE Model*.
 - Shift eLearning (2025). *The Future of Instructional Design in the AI Era*.
 - University of Cincinnati (2025). *How Instructional Designers Use AI*.
+
+
+### What’s Next?
+Theory and process are essential, but seeing AI in action is where the transformation becomes real. In **[Chapter 4: Case Studies](04-case-studies.md)**, we will explore real-world success stories from organizations like Georgia Tech, IBM, and Walmart.
