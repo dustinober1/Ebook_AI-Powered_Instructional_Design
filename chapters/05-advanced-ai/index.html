@@ -825,10 +825,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#reflection-exercise" class="md-nav__link">
+  <a href="#reflection-exercise-implementing-rag" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Reflection Exercise
+        Reflection Exercise: Implementing RAG
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What’s Next?
       
     </span>
   </a>
@@ -1143,10 +1154,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#reflection-exercise" class="md-nav__link">
+  <a href="#reflection-exercise-implementing-rag" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Reflection Exercise
+        Reflection Exercise: Implementing RAG
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What’s Next?
       
     </span>
   </a>
@@ -1180,14 +1202,15 @@
   
 
 
-<p><img alt="Advanced AI Implementation: Agents &amp; RAG" src="../../assets/chapter-05-cover.jpg" /></p>
+<p><img alt="Technical diagram of a RAG pipeline and agentic orchestration loop" src="../../assets/chapter-05-cover.jpg" /></p>
 <h1 id="advanced-ai-implementation-agents-rag">Advanced AI Implementation: Agents &amp; RAG</h1>
-<p>In the previous chapters, we focused on how to communicate with AI using prompts and how to integrate it into your workflow. However, to build truly powerful, "hallucination-free" learning experiences, we must move beyond the basic chat interface. This chapter explores <strong>Retrieval-Augmented Generation (RAG)</strong> and <strong>Agentic Workflows</strong>.</p>
+<p>In Chapter 1, we explored the "hallucination" problem—the tendency for AI to guess when it lacks data. In Chapter 2, we mastered the art of Prompt Engineering to guide those responses. However, as an Instructional Designer dealing with highly specific proprietary content, you will eventually hit the "Context Ceiling." To build truly high-fidelity learning systems that are grounded in your specific facts, you must move beyond the chat interface. This chapter bridges that gap by exploring <strong>Retrieval-Augmented Generation (RAG)</strong> and <strong>Agentic Workflows</strong>.</p>
 <h2 id="1-what-is-rag-retrieval-augmented-generation">1. What is RAG? (Retrieval-Augmented Generation)</h2>
 <p>A common problem with LLMs is that they are trained on public data. They don't know your company's specific safety protocols, your unique product features, or your internal project management methodology.</p>
 <p><strong>RAG</strong> solves this by connecting the LLM to a specific "Knowledge Shell" of your proprietary documents.</p>
 <blockquote>
 <p>[!NOTE]
+[!NOTE]
 <strong>Analogy:</strong> Think of a standard LLM as a student taking a test from memory. They might hallucinate if they don't know the answer. RAG is like letting that student take an <strong>open-book exam</strong> with <em>your</em> textbook. They must find the answer in the book before writing it down.</p>
 </blockquote>
 <h3 id="how-it-works-the-technical-loop">How it Works (The Technical Loop)</h3>
@@ -1198,6 +1221,7 @@
 </ol>
 <blockquote>
 <p>[!TIP]
+[!TIP]
 RAG is the single most effective way for Instructional Designers to eliminate AI hallucinations. It forces the AI to "cite its sources" from your approved materials.</p>
 </blockquote>
 <h3 id="rag-vs-fine-tuning-the-ids-choice">RAG vs. Fine-Tuning: The ID's Choice</h3>
@@ -1205,7 +1229,7 @@ RAG is the single most effective way for Instructional Designers to eliminate AI
 *   <strong>Use RAG when</strong>: You need <strong>factual accuracy</strong>. If your content changes weekly (e.g., software updates), RAG is superior because you just swap the PDF in the "shell."
 *   <strong>Use Fine-Tuning when</strong>: You need a specific <strong>style or specialized vocabulary</strong>. If you want the AI to write exactly like your company’s unique pedagogical voice or understand highly specialized medical jargon, fine-tuning helps the model "speak the language."</p>
 <h2 id="2-agentic-workflows-the-power-of-delegation">2. Agentic Workflows: The Power of Delegation</h2>
-<p>In a standard workflow, you give a prompt and get a response. In an <strong>Agentic Workflow</strong>, you give a goal, and the AI works in a loop to figure out how to achieve it (Ng, 2024).</p>
+<p>Recall the "Learning Architect" role introduced in Chapter 1. While RAG provides the AI with a "brain" of specific knowledge, <strong>Agentic Workflows</strong> provide the "hands" to execute complex design tasks autonomously. In a standard workflow, you give a prompt and get a response. In an <strong>Agentic Workflow</strong>, you give a goal, and the AI works in an iterative loop—critiquing, planning, and executing—to figure out how to achieve it (Ng, 2024).</p>
 <p>Andrew Ng (2024) identifies four key patterns for agentic design:</p>
 <ol>
 <li><strong>Reflection</strong>: The agent looks at its own work and critiques it before showing it to you.</li>
@@ -1243,15 +1267,23 @@ If a learner asks "How do I fix the blinking red light?", semantic search knows 
 *   <strong>Relevance</strong>: Does the answer actually address the learner's specific question?
 *   <strong>Answer Correctness</strong>: Comparing the AI’s answer against a "Gold Standard" answer provided by an SME.</p>
 <hr />
-<h3 id="reflection-exercise">Reflection Exercise</h3>
-<p>Assume you have a 100-page employee handbook. How would a <strong>RAG-powered</strong> AI tutor be different from a traditional "Find" (Ctrl+F) search? Which one would be more helpful for a new hire trying to understand company culture?</p>
+<h3 id="reflection-exercise-implementing-rag">Reflection Exercise: Implementing RAG</h3>
+<p><strong>Goal</strong>: Apply the concept of RAG to a real training problem.</p>
+<ol>
+<li><strong>Scenario</strong>: You are training new hires on your company's "Remote Work Policy."</li>
+<li><strong>Tool Selection</strong>: Compare using a standard LLM (like ChatGPT) vs. a RAG system connected to the policy PDF.</li>
+<li><strong>Task</strong>: Write 3 questions a new hire might ask (e.g., "Can I work from a coffee shop?").</li>
+<li><strong>Analysis</strong>: For each question, explain why a standard LLM might fail (hallucinate) and how RAG would provide the correct answer based on <em>your</em> specific policy.</li>
+</ol>
 <hr />
 <p><em>References:</em></p>
 <ul>
-<li>Databricks (2025). <em>Building High-Fidelity RAG Systems for Enterprise Knowledge</em>.</li>
+<li>Databricks (2025). <em>Creating High Quality RAG Applications with Databricks</em>.</li>
 <li>Ng, A. (2024). <em>Agentic Workflows: The Next Frontier of Generative AI</em>. DeepLearning.AI.</li>
-<li>Gartner (2024). <em>Hype Cycle for Artificial Intelligence, 2025</em>.</li>
+<li>Gartner (2025). <em>Hype Cycle for Artificial Intelligence, 2025</em>.</li>
 </ul>
+<h3 id="whats-next">What’s Next?</h3>
+<p>Building high-fidelity knowledge systems with RAG and Agents is the state-of-the-art in 2025. But where is the technology heading next? In <strong><a href="../06-the-future/">Chapter 6: The Future of AI-Powered ID</a></strong>, we will look ahead to 2030 and the era of hyper-personalization and synthetic learners.</p>
 
 
 
