@@ -1,6 +1,7 @@
 /* ==========================================================================
    AI-Powered Instructional Design - Custom Theme
    GitHub-Inspired Dark Mode from dustinober1.github.io
+   Enhanced with Interactive Animations
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
@@ -9,7 +10,98 @@
 :root {
     /* Transitions */
     --custom-transition: 0.3s ease;
+    --custom-transition-fast: 0.15s ease;
+    --custom-transition-slow: 0.5s ease;
     --custom-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+    /* Animation timing */
+    --animation-duration: 0.6s;
+    --stagger-delay: 0.1s;
+}
+
+/* --------------------------------------------------------------------------
+   Animation Keyframes
+   -------------------------------------------------------------------------- */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* Light mode overrides */
@@ -29,6 +121,8 @@
     --custom-header-text: #1F2328;
     --custom-nav-text: #656D76;
     --custom-nav-active: #0969DA;
+    --custom-gradient-start: #0969DA;
+    --custom-gradient-end: #1F88FF;
 }
 
 /* Dark mode overrides (GitHub Dark) */
@@ -48,6 +142,8 @@
     --custom-header-text: #FFFFFF;
     --custom-nav-text: #C0C8D0;
     --custom-nav-active: #FFFFFF;
+    --custom-gradient-start: #2F81F7;
+    --custom-gradient-end: #58A6FF;
 }
 
 /* --------------------------------------------------------------------------
@@ -776,4 +872,486 @@ body {
 
 .md-typeset hr+h2+p+p {
     text-align: center;
+}
+
+/* ==========================================================================
+   INTERACTIVE ENHANCEMENTS
+   Making the static site feel dynamic and alive
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Reading Progress Bar
+   -------------------------------------------------------------------------- */
+.reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--custom-gradient-start), var(--custom-gradient-end));
+    z-index: 10000;
+    transition: width 0.1s ease;
+    box-shadow: 0 0 10px var(--custom-accent-glow);
+}
+
+/* --------------------------------------------------------------------------
+   Page Content Fade-In Animation
+   -------------------------------------------------------------------------- */
+.md-content__inner {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.md-content__inner>* {
+    animation: fadeInUp 0.5s ease-out backwards;
+}
+
+.md-content__inner>*:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.md-content__inner>*:nth-child(2) {
+    animation-delay: 0.15s;
+}
+
+.md-content__inner>*:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.md-content__inner>*:nth-child(4) {
+    animation-delay: 0.25s;
+}
+
+.md-content__inner>*:nth-child(5) {
+    animation-delay: 0.3s;
+}
+
+/* --------------------------------------------------------------------------
+   Interactive Chapter Cards
+   -------------------------------------------------------------------------- */
+.chapter-card {
+    background: var(--custom-bg-secondary);
+    border: 1px solid var(--custom-border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+}
+
+.chapter-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, var(--custom-accent-glow), transparent);
+    transition: left 0.5s ease;
+}
+
+.chapter-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    border-color: var(--custom-accent);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15),
+        0 0 30px var(--custom-accent-glow);
+}
+
+.chapter-card:hover::before {
+    left: 100%;
+}
+
+/* --------------------------------------------------------------------------
+   Interactive List Items (Chapter Links)
+   -------------------------------------------------------------------------- */
+.md-typeset ul li a,
+.md-typeset ol li a {
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.md-typeset ul li a::after,
+.md-typeset ol li a::after {
+    content: ' →';
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.md-typeset ul li a:hover::after,
+.md-typeset ol li a:hover::after {
+    opacity: 1;
+    transform: translateX(5px);
+}
+
+.md-typeset ul li a:hover,
+.md-typeset ol li a:hover {
+    transform: translateX(5px);
+    color: var(--custom-accent-hover);
+}
+
+/* --------------------------------------------------------------------------
+   Animated Section Headings
+   -------------------------------------------------------------------------- */
+.md-typeset h2 {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.md-typeset h2::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--custom-gradient-start), var(--custom-gradient-end));
+    transition: width 0.4s ease;
+}
+
+.md-typeset h2:hover::after {
+    width: 100%;
+}
+
+/* --------------------------------------------------------------------------
+   Interactive Tables
+   -------------------------------------------------------------------------- */
+.md-typeset table:not([class]) tr {
+    transition: all 0.3s ease;
+}
+
+.md-typeset table:not([class]) tbody tr:hover {
+    background: var(--custom-accent-glow) !important;
+    transform: scale(1.01);
+}
+
+/* --------------------------------------------------------------------------
+   Animated Admonitions
+   -------------------------------------------------------------------------- */
+.md-typeset .admonition,
+.md-typeset details {
+    transition: all 0.4s ease;
+    animation: slideInLeft 0.5s ease-out;
+}
+
+.md-typeset .admonition:hover,
+.md-typeset details:hover {
+    transform: translateX(5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset details[open] {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.md-typeset details[open]>summary {
+    border-bottom: 1px solid var(--custom-border);
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* --------------------------------------------------------------------------
+   Code Block Enhancements
+   -------------------------------------------------------------------------- */
+.md-typeset pre {
+    transition: all 0.3s ease;
+}
+
+.md-typeset pre:hover {
+    transform: scale(1.01);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Copy button animation */
+.md-clipboard {
+    transition: all 0.3s ease !important;
+}
+
+.md-clipboard:hover {
+    transform: scale(1.2);
+}
+
+.md-clipboard:active {
+    transform: scale(0.9);
+}
+
+/* --------------------------------------------------------------------------
+   Interactive Blockquotes
+   -------------------------------------------------------------------------- */
+.md-typeset blockquote {
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.md-typeset blockquote:hover {
+    transform: translateX(10px);
+    border-left-width: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* --------------------------------------------------------------------------
+   Floating Action Button (Back to Top)
+   -------------------------------------------------------------------------- */
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, var(--custom-gradient-start), var(--custom-gradient-end));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 20px var(--custom-accent-glow);
+    z-index: 1000;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.back-to-top:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 8px 30px var(--custom-accent-glow);
+}
+
+.back-to-top::before {
+    content: '↑';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* --------------------------------------------------------------------------
+   Image Hover Effects
+   -------------------------------------------------------------------------- */
+.md-typeset img {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.md-typeset img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Chapter cover images */
+.md-typeset p>img[alt*="cover"],
+.md-typeset p>img[alt*="Cover"],
+.md-typeset p>img[alt*="diagram"],
+.md-typeset p>img[alt*="illustration"] {
+    animation: float 6s ease-in-out infinite;
+}
+
+/* --------------------------------------------------------------------------
+   Navigation Sidebar Enhancements
+   -------------------------------------------------------------------------- */
+.md-nav__item {
+    transition: all 0.3s ease;
+}
+
+.md-nav__item:hover {
+    transform: translateX(3px);
+}
+
+.md-nav__link {
+    position: relative;
+    overflow: hidden;
+}
+
+.md-nav__link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background: var(--custom-accent);
+    transform: scaleY(0);
+    transition: transform 0.3s ease;
+}
+
+.md-nav__link:hover::before,
+.md-nav__link--active::before {
+    transform: scaleY(1);
+}
+
+/* --------------------------------------------------------------------------
+   Tab Content Animations
+   -------------------------------------------------------------------------- */
+.md-typeset .tabbed-content {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.md-typeset .tabbed-set>label {
+    transition: all 0.3s ease;
+}
+
+.md-typeset .tabbed-set>label:hover {
+    transform: translateY(-2px);
+}
+
+/* --------------------------------------------------------------------------
+   Search Enhancements
+   -------------------------------------------------------------------------- */
+.md-search__form {
+    transition: all 0.3s ease;
+}
+
+.md-search__form:focus-within {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px var(--custom-accent-glow);
+}
+
+.md-search-result__item {
+    animation: fadeInUp 0.3s ease-out backwards;
+    transition: all 0.3s ease;
+}
+
+.md-search-result__item:hover {
+    transform: translateX(5px);
+}
+
+/* --------------------------------------------------------------------------
+   Interactive Mermaid Diagrams
+   -------------------------------------------------------------------------- */
+.mermaid {
+    transition: all 0.4s ease;
+}
+
+.mermaid:hover {
+    transform: scale(1.01);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* --------------------------------------------------------------------------
+   Glossary Term Highlights
+   -------------------------------------------------------------------------- */
+.md-typeset h3 {
+    transition: all 0.3s ease;
+    padding-left: 0;
+}
+
+.md-typeset h3:hover {
+    padding-left: 10px;
+    color: var(--custom-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Interactive Footer
+   -------------------------------------------------------------------------- */
+.md-footer__link {
+    transition: all 0.3s ease;
+}
+
+.md-footer__link:hover {
+    transform: scale(1.05);
+}
+
+.md-footer__link--prev:hover {
+    transform: translateX(-5px);
+}
+
+.md-footer__link--next:hover {
+    transform: translateX(5px);
+}
+
+/* --------------------------------------------------------------------------
+   Cursor Glow Effect (subtle)
+   -------------------------------------------------------------------------- */
+.md-content {
+    position: relative;
+}
+
+/* --------------------------------------------------------------------------
+   Pulsing "New" Badge for Recent Content
+   -------------------------------------------------------------------------- */
+.badge-new {
+    display: inline-block;
+    background: linear-gradient(135deg, #FF6B6B, #FF8E53);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.2rem 0.5rem;
+    border-radius: 20px;
+    margin-left: 0.5rem;
+    animation: pulse 2s infinite;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* --------------------------------------------------------------------------
+   Interactive Reflection Exercises
+   -------------------------------------------------------------------------- */
+.md-typeset h3:has(+ p strong:first-child) {
+    background: var(--custom-bg-secondary);
+    padding: 1rem;
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 0;
+    border: 1px solid var(--custom-border);
+    border-bottom: none;
+}
+
+/* --------------------------------------------------------------------------
+   Smooth Scroll Behavior
+   -------------------------------------------------------------------------- */
+html {
+    scroll-behavior: smooth;
+}
+
+/* --------------------------------------------------------------------------
+   Loading State Shimmer
+   -------------------------------------------------------------------------- */
+.loading-shimmer {
+    background: linear-gradient(90deg,
+            var(--custom-bg-secondary) 25%,
+            var(--custom-bg-tertiary) 50%,
+            var(--custom-bg-secondary) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+/* --------------------------------------------------------------------------
+   Keyboard Navigation Indicators
+   -------------------------------------------------------------------------- */
+*:focus-visible {
+    outline: 3px solid var(--custom-accent);
+    outline-offset: 3px;
+    animation: pulse 0.5s ease;
+}
+
+/* --------------------------------------------------------------------------
+   Reduced Motion Support (Accessibility)
+   Keep interactions but reduce motion
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+
+    .md-content__inner,
+    .md-content__inner>*,
+    .md-typeset .admonition,
+    .md-typeset details,
+    .md-typeset p>img[alt*="cover"],
+    .md-typeset p>img[alt*="illustration"] {
+        animation: none !important;
+    }
+
+    .chapter-card:hover,
+    .md-typeset ul li a:hover,
+    .md-typeset blockquote:hover,
+    .md-typeset img:hover {
+        transform: none !important;
+    }
+
+    html {
+        scroll-behavior: auto;
+    }
 }

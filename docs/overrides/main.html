@@ -17,7 +17,98 @@
 {% endblock %}
 
 {% block content %}
+<!-- Reading Progress Bar -->
+<div class="reading-progress" id="reading-progress"></div>
+
 <main id="main-content" role="main">
   {{ super() }}
 </main>
+
+<!-- Back to Top Button -->
+<div class="back-to-top" id="back-to-top" title="Back to top"></div>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script>
+  // Reading Progress Bar
+  document.addEventListener('DOMContentLoaded', function () {
+    const progressBar = document.getElementById('reading-progress');
+    const backToTop = document.getElementById('back-to-top');
+
+    if (progressBar) {
+      window.addEventListener('scroll', function () {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPercent = (scrollTop / docHeight) * 100;
+        progressBar.style.width = scrollPercent + '%';
+
+        // Show/hide back to top button
+        if (backToTop) {
+          if (scrollTop > 300) {
+            backToTop.classList.add('visible');
+          } else {
+            backToTop.classList.remove('visible');
+          }
+        }
+      });
+    }
+
+    // Back to top functionality
+    if (backToTop) {
+      backToTop.addEventListener('click', function () {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    }
+
+    // Add staggered animation to list items
+    const listItems = document.querySelectorAll('.md-typeset ul > li, .md-typeset ol > li');
+    listItems.forEach((item, index) => {
+      item.style.animationDelay = (index * 0.05) + 's';
+      item.style.animation = 'fadeInUp 0.4s ease-out backwards';
+    });
+
+    // Add hover sound effect simulation (visual feedback)
+    const interactiveElements = document.querySelectorAll('a, button, .md-nav__link');
+    interactiveElements.forEach(el => {
+      el.addEventListener('mouseenter', function () {
+        this.style.transition = 'all 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+      });
+    });
+
+    // Intersection Observer for scroll animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+
+    // Observe tables and code blocks for scroll animations
+    document.querySelectorAll('.md-typeset table, .md-typeset pre, .mermaid').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'all 0.6s ease-out';
+      observer.observe(el);
+    });
+  });
+
+  // Add keyboard navigation hints
+  document.addEventListener('keydown', function (e) {
+    // Press 'T' to scroll to top
+    if (e.key === 't' && !e.ctrlKey && !e.metaKey && document.activeElement.tagName !== 'INPUT') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  });
+</script>
 {% endblock %}
