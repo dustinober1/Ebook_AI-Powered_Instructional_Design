@@ -21,6 +21,14 @@ Welcome to this comprehensive, open-source guide on **AI-Powered Instructional D
     👥 Design for adult learners in workforce development  
     📊 Measure ROI and lead AI transformation  
 
+<div style="background: linear-gradient(135deg, var(--md-primary-fg-color), var(--md-accent-fg-color)); padding: 1.5rem 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
+    <h3 style="color: white; margin: 0 0 0.5rem 0;">⚡ Short on Time?</h3>
+    <p style="color: rgba(255,255,255,0.9); margin: 0 0 1rem 0;">Get up and running with AI in just 15 minutes.</p>
+    <a href="quick-start/" class="md-button" style="background: white; color: var(--md-primary-fg-color);">
+        🚀 Quick Start Guide
+    </a>
+</div>
+
 ---
 
 ## 📚 Start Your Journey
