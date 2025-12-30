@@ -727,3 +727,53 @@ body {
         border-radius: 12px;
     }
 }
+
+/* --------------------------------------------------------------------------
+   Social Links in Footer - Buy Me a Coffee Styling
+   -------------------------------------------------------------------------- */
+.md-social__link[href*="buymeacoffee"] {
+    color: #FFDD00 !important;
+}
+
+.md-social__link[href*="buymeacoffee"]:hover {
+    color: #FF6B6B !important;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+/* Make social links in footer more prominent */
+.md-social {
+    padding: 0.5rem 0;
+}
+
+.md-social__link {
+    transition: all 0.3s ease;
+    margin: 0 0.25rem;
+}
+
+.md-social__link:hover {
+    transform: scale(1.1);
+}
+
+/* --------------------------------------------------------------------------
+   Buy Me a Coffee Button Styling (on homepage)
+   -------------------------------------------------------------------------- */
+.md-typeset a[href*="buymeacoffee"] img {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 221, 0, 0.3);
+}
+
+.md-typeset a[href*="buymeacoffee"] img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 221, 0, 0.4);
+}
+
+/* Support section styling */
+.md-typeset hr+h2+p {
+    text-align: center;
+}
+
+.md-typeset hr+h2+p+p {
+    text-align: center;
+}
