@@ -874,6 +874,44 @@ body {
     text-align: center;
 }
 
+/* --------------------------------------------------------------------------
+   TOC Sidebar - Buy Me a Coffee
+   -------------------------------------------------------------------------- */
+.toc-support {
+    animation: fadeIn 0.5s ease-out 0.3s backwards;
+}
+
+.toc-support img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.toc-support img:hover {
+    transform: scale(1.08) !important;
+    box-shadow: 0 6px 20px rgba(255, 221, 0, 0.5) !important;
+}
+
+.toc-support a {
+    text-decoration: none !important;
+}
+
+/* Make the support box stand out a bit more */
+[data-md-color-scheme="slate"] .toc-support {
+    background: linear-gradient(135deg, rgba(255, 221, 0, 0.08), rgba(255, 221, 0, 0.02)) !important;
+    border-color: rgba(255, 221, 0, 0.2) !important;
+}
+
+[data-md-color-scheme="default"] .toc-support {
+    background: linear-gradient(135deg, rgba(255, 221, 0, 0.15), rgba(255, 221, 0, 0.05)) !important;
+    border-color: rgba(255, 200, 0, 0.3) !important;
+}
+
+/* Hide on mobile (will show in footer instead) */
+@media screen and (max-width: 76.25em) {
+    .toc-support {
+        display: none;
+    }
+}
+
 /* ==========================================================================
    INTERACTIVE ENHANCEMENTS
    Making the static site feel dynamic and alive
