@@ -89,8 +89,10 @@ nav:
   - Appendices:
     - A. ID Playbook: appendix.md
     - B. Workforce Prompts & Templates: appendix-workforce.md
+    - C. AI Tools Reference: appendix-tools.md
   - Bibliography: bibliography.md
   - Glossary: glossary.md
+  - About: about.md
 
 extra_css:
   - stylesheets/extra.css

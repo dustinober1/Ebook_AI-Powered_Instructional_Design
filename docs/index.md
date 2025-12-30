@@ -75,11 +75,17 @@ Specialized content for adult learners in the workforce.
 -   📝 **[Appendix B: Workforce Prompts](appendix-workforce.md)**  
     Ready-to-use prompts and templates for workforce training
 
--   📖 **[Glossary](glossary.md)**  
+-   � **[Appendix C: AI Tools Reference](appendix-tools.md)** <span class="badge-new">New</span>  
+    Curated guide to 60+ AI tools organized by use case
+
+-   �📖 **[Glossary](glossary.md)**  
     50+ key terms and definitions
 
 -   📚 **[Bibliography](bibliography.md)**  
     Complete list of references and resources
+
+-   👤 **[About the Author](about.md)**  
+    Learn more about this project and how to contribute
 
 </div>
 
