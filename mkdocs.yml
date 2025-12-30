@@ -84,7 +84,11 @@ nav:
     - 5. Advanced AI Implementation: chapters/05-advanced-ai.md
     - 6. The Future of AI-Powered ID: chapters/06-the-future.md
     - 7. Leading the AI Transformation: chapters/07-leading-ai-transformation.md
-  - Appendix (Playbook): appendix.md
+    - 8. AI for Workforce Development: chapters/08-workforce-development.md
+    - 9. Workforce Case Studies: chapters/09-workforce-case-studies.md
+  - Appendices:
+    - A. ID Playbook: appendix.md
+    - B. Workforce Prompts & Templates: appendix-workforce.md
   - Bibliography: bibliography.md
   - Glossary: glossary.md
 
